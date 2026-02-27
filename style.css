@@ -68,7 +68,6 @@
         display: flex;
         justify-content: left;
         align-items: left;
-        padding-bottom: var(--vertical-padding);
         width: 100%
     }
     
@@ -197,7 +196,6 @@
     
     .nav-button {
         transition: transform 0.12s ease, box-shadow 0.12s ease;
-        display: inline-flex;
         align-items: center;
         text-align: center;
         gap: 10px;

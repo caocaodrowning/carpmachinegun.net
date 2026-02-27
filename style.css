@@ -245,7 +245,7 @@
     }
     
     #navbar ul {
-        list-style: none;
+        list-style: disc outside;
         padding: 0;
         gap: var(--horizontal-padding);
         display: flex;
@@ -313,6 +313,9 @@
     
     .btn-classic {
         font-family: Arial, Helvetica, sans-serif;
+        font-weight: 400;
+        font-style: normal;
+        font-stretch: normal;
         line-height: 1.5rem;
         position: relative;
         top: -2px;
@@ -338,7 +341,7 @@
         fill: var(--border0);
     }
 
-    .btn-classic:active,
+    .btn-classic:focus,
     .btn-classic:hover,
     .btn-classiv:active {
         text-decoration: none;
@@ -347,6 +350,48 @@
         background: var(--border0);
         fill: var(--main-bg);
     }
+
+    .btn-nav {
+        font-family: Arial, Helvetica, sans-serif;
+        font-weight: 400;
+        font-style: normal;
+        font-stretch: normal;
+        line-height: 1rem;
+        position: relative;
+        top: -.125rem;
+        display: inline-block;
+        height: 1.5rem;
+        margin-right: .5rem;
+        padding: .25rem 0 .05rem 0;
+        cursor: pointer;
+        -webkit-user-select: none;
+        -ms-user-select: none;
+        user-select: none;
+        text-align: center;
+        vertical-align: middle;
+        white-space: nowrap;
+        text-decoration: none;
+        color: var(--border0);
+        border: .1rem solid var(--border0);
+        border-radius: 0;
+        outline: 0;
+        background: var(--main-bg);
+        box-shadow: 2px 2px var(--shadow1);
+        -webkit-appearance: none;
+        appearance: none;
+        fill: var(--border0);
+    }
+
+    .btn-nav:focus,
+    .btn-nav:hover,
+    .btn-nav:active {
+        text-decoration: none;
+        color: var(--main-bg);
+        border-color: var(--border0);
+        background: var(--border0);
+        fill: var(--main-bg)
+    }
+    
 
     /* TABLES */
 
@@ -411,11 +456,12 @@
     a {
         cursor: pointer;
         text-decoration: none;
-        color: #000000;
+        color: #002dce;
         outline: 0
     }
     
     a:focus {
+        box-shadow: 0 0 0 .1rem var(--trans);
     }
     
     a.active,a:active,a:focus,a:hover {

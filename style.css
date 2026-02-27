@@ -408,6 +408,7 @@
         color: var(--main-bg);
         border-color: var(--border0);
         background: var(--border0);
+        box-shadow: 2px 2px var(--shadow1);
         fill: var(--main-bg);
     }
 
@@ -449,6 +450,7 @@
         color: var(--main-bg);
         border-color: var(--border0);
         background: var(--border0);
+        box-shadow: 2px 2px var(--shadow1);
         fill: var(--main-bg)
     }
     

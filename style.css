@@ -224,8 +224,8 @@
         font-size: var(--nav-button-font-size);
         min-height: var(--navbar-height);
         max-height: var(--navbar-height);
-        min-width: var(--navbar-width);
-        max-width: var(--navbar-width);
+        min-width: 150px;
+        max-width: 150px;
     }
     
     .nav-button:hover {

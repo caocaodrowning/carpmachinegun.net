@@ -314,6 +314,15 @@
         flex-wrap: wrap;
     }
 
+    .columns-head {
+        max-width: inherit;
+        width: 100%;
+        margin-right: auto;
+        margin-left: auto;
+        padding-right: .4rem;
+        padding-left: .4rem;
+    }
+
     .column {
         max-width: 100%;
         padding-right: .4rem;

@@ -169,7 +169,14 @@
     }
 
     hr.solid {
+        overflow: visible;
+        box-sizing: content-box;
+        height: 0;
+        height: 1px;
+        margin: .5rem 0 .5rem;
         margin-bottom: .25rem;
+        color: var(--border0);
+        border: none;
         border-top: none;
         border-bottom: 1px solid var(--border0)
     }

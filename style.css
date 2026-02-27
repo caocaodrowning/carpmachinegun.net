@@ -1,15 +1,20 @@
-    /* change these van */
+    /* BIG BOY VARIABLES */
     :root {
         /* colors */
         --bg-color: #ccc;
         --main-bg: #ffffff;
         --lighter-bg: #ffffff;
+        /* borders */
         --border0: #000;
         --border1: #777;
         --border2: #bfbfbf;
         --trans: #ffffff00;
+        /* shadows or borders */
+        --shadow0: #aaa; 
         --shadow1: #bbb;
-        --shadow2: #ddd;
+        --shadow2: #ccc;
+        --shadow3: #ddd;
+        /* text */
         --text-color: #000000;
         
         /* text */
@@ -68,7 +73,7 @@
         padding-bottom: var(--vertical-padding);
         padding-top: var(--vertical-padding);
         position: relative;
-        box-shadow: 2px 2px var(--shadow1)
+        box-shadow: 2px 2px var(--shadow2)
     }
     
     .title {
@@ -272,7 +277,7 @@
         background: var(--lighter-bg);
         font-size: var(--nav-button-font-size);
         width: 150px;
-        box-shadow: 2px 2px #ddd
+        box-shadow: 2px 2px var(--shadow1)
     }
     
     .nav-button:hover {
@@ -325,7 +330,7 @@
         border-radius: 0;
         outline: 0;
         background: #fff;
-        box-shadow: 2px 2px var(--shadow1)
+        box-shadow: 2px 2px var(--shadow1);
         -webkit-appearance: none;
         appearance: none;
         fill: #000
@@ -341,7 +346,7 @@
         border-right: 1px solid var(--border2);
         border-top: 1px dashed var(--border2);
         border-bottom: 1px solid var(--border2);
-        box-shadow: 2px 2px var(--shadow2)
+        box-shadow: 2px 2px var(--shadow3)
     }
 
     .table td {
@@ -359,13 +364,13 @@
         height: auto;
         margin-right: 2px;
         margin-bottom: 2px;
-        border: 1px solid #aaa;
-        box-shadow: 2px 2px #ddd
+        border: 1px solid var(--shadow0);
+        box-shadow: 2px 2px var(--shadow3)
     }
 
     .moon-gray {
-        color: #ccc;
-        fill: #ccc;
+        color: var(--shadow2);
+        fill: var(--shadow2);
     }
 
     .bg-gold {

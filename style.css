@@ -145,7 +145,7 @@
         align-items: right;
     }
     
-    .argh0 {
+    .subtitle0 {
         text-align: left;
         margin: auto;
     }
@@ -227,6 +227,7 @@
         background: var(--lighter-bg);
         font-size: var(--nav-button-font-size);
         width: 150px;
+        box-shadow: 2px 2px #ddd
     }
     
     .nav-button:hover {

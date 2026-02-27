@@ -328,7 +328,6 @@
         text-align: center;
         justify-content: center;
         text-decoration: none;
-        gap: 10px;
         padding: var(--nav-button-padding);
         color: var(--text-color);
         border-top: 1px solid var(--border0);

@@ -9,6 +9,7 @@
         --border2: #bfbfbf;
         --trans: #ffffff00;
         --shadow1: #bbb;
+        --shadow2: #888;
         --text-color: #000000;
         
         /* text */
@@ -324,7 +325,7 @@
         border-radius: 0;
         outline: 0;
         background: #fff;
-        box-shadow: 2px 2px #bbb;
+        box-shadow: 2px 2px var(--shadow1)
         -webkit-appearance: none;
         appearance: none;
         fill: #000
@@ -340,7 +341,7 @@
         border-right: 1px solid var(--border2);
         border-top: 1px dashed var(--border2);
         border-bottom: 1px solid var(--border2);
-        box-shadow: 2px 2px #bbb;
+        box-shadow: 2px 2px var(--shadow2)
     }
 
     .table td {

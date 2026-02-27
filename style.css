@@ -218,7 +218,6 @@
         justify-content: center;
         text-decoration: none;
         gap: 10px;
-        padding: var(--nav-button-padding);
         color: var(--text-color);
         border-top: 1px solid var(--border1);
         border-right: 1px solid var(--border1);
@@ -226,8 +225,6 @@
         border-left: 1px solid var(--border1);
         background: var(--lighter-bg);
         font-size: var(--nav-button-font-size);
-        min-height: var(--navbar-height);
-        max-height: var(--navbar-height);
         min-width: 150px;
         max-width: 150px;
     }

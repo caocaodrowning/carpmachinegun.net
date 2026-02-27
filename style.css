@@ -22,12 +22,12 @@
         /* layout stuff */
         --main-width: 1000px;
         --main-height: 1200px;
-        --horizontal-padding: 20px;
+        --horizontal-padding: 0px;
         --vertical-padding: 10px;
         --vertical-element-padding: 10px;
         --ul-width: 300px;
         --navbar-height: 30px;
-        --navbar-width: 100%;
+        --navbar-width: 150;
         --nav-button-padding: 12px;
         --nav-button-radius: 0px;
     }
@@ -217,7 +217,6 @@
         border-bottom: 1px solid var(--border1);
         border-left: 1px solid var(--border1);
         background: var(--lighter-bg);
-        border-radius: var(--nav-button-radius);
         font-size: var(--nav-button-font-size);
         box-sizing: border-box;
         min-height: var(--navbar-height);

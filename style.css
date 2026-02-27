@@ -312,7 +312,7 @@
     /* BUTTONS */
     
     .btn-classic {
-        font-family: 'Courier New', Courier, monospace;
+        font-family: Arial, Helvetica, sans-serif;
         line-height: 1.5rem;
         position: relative;
         top: -2px;
@@ -384,7 +384,7 @@
         box-shadow: 2px 2px var(--shadow3)
     }
 
-    /* FOR CLEANUP */
+    /* COLOR DEFINITIONS */
 
     .moon-gray {
         color: var(--shadow2);

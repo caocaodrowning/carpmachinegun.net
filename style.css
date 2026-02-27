@@ -112,7 +112,6 @@
     }
 
     footer {
-        border-top: 1px dotted var(--border1);
         min-width: var(--main-width);
         text-align: right;
         font-size: var(--footer-font-size);
@@ -155,6 +154,8 @@
         border: 1px dotted #000;
     }
 
+    /* HEADERS & DIVIDING LINES */
+
     hr {
         overflow: visible;
         box-sizing: content-box;
@@ -167,13 +168,18 @@
         border-top: 1px dashed var(--border0)
     }
 
+    hr-solid {
+        margin-bottom: .25rem;
+        border-top: none;
+        border-bottom: 1px solid var(--border0)
+    }
+
     .main-seperator {
         border: none;
         background: radial-gradient(var(--border1) .5px,var(--trans) 1px) 0 0/3px 3px,var(--main-bg);
         height: 1rem;
         max-height: 1rem;
         margin-bottom: 3rem;
-
     }
     
     .seperator {

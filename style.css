@@ -4,7 +4,8 @@
         --bg-color: #adadad;
         --main-bg: #ffffff;
         --lighter-bg: #ffffff;
-        --border1: #777777;
+        --border1: #777;
+        --border2: #bfbfbf;
         --text-color: #000000;
         
         /* text */
@@ -293,9 +294,9 @@
         border-collapse: collapse;
         text-align: left;
         border-left: 4px solid var(--border1);
-        border-right: 1px solid var(--border1);
-        border-top: 1px dashed var(--border1);
-        border-bottom: 1px solid var(--border1);
+        border-right: 1px solid var(--border2);
+        border-top: 1px dashed var(--border2);
+        border-bottom: 1px solid var(--border2);
         box-shadow: 2px 2px #ddd;
     }
 

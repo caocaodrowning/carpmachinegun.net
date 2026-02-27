@@ -25,8 +25,8 @@
         --vertical-element-padding: 10px;
         --ul-width: 300px;
         --navbar-height: 25px;
-        --navbar-width: 100px;
-        --nav-button-padding: 5px;
+        --navbar-width: 100%;
+        --nav-button-padding: 12px;
         --nav-button-radius: 0px;
     }
     
@@ -246,6 +246,7 @@
         border: 1px solid #000;
         border-radius: 6px;
         background: #fe5555;
+        margin-right: 6px;
     }
     
     a {

@@ -325,15 +325,15 @@
         vertical-align: center;
         white-space: nowrap;
         text-decoration: none;
-        color: #000;
-        border: .1rem solid #000;
+        color: var(--border0);
+        border: .1rem solid var(--border0);
         border-radius: 0;
         outline: 0;
-        background: #fff;
+        background: var(--main-bg);
         box-shadow: 2px 2px var(--shadow1);
         -webkit-appearance: none;
         appearance: none;
-        fill: #000
+        fill: var(--border0)
     }
 
     .table-silver {

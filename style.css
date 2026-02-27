@@ -150,7 +150,7 @@
         margin: auto;
     }
 
-    .argh1 {
+    .text1 {
         text-align: left;
         margin: auto;
         max-width: 500px;
@@ -158,7 +158,7 @@
         font-size: var(--large-font-size)
     }
     
-    .argh2 {
+    .text2 {
         text-align: center;
         margin: auto;
         display: flex;
@@ -168,13 +168,13 @@
         border: none;
     }
     
-    .argh2 h3 {
+    .text2 h3 {
         margin-left: 2px;
         margin-bottom: 4px;
         text-align: left;
     }
     
-    .argh2 ul {
+    .text2 ul {
         list-style: none;
         padding: 0;
         margin: 0;
@@ -185,7 +185,7 @@
         text-align: right;
     }
     
-    .argh2 li {
+    .text2 li {
         padding: 6px;
         text-align: center;
         border-top: 1px solid var(--border1);
@@ -293,9 +293,9 @@
         border-collapse: collapse;
         text-align: left;
         border-left: 4px solid var(--border1);
-        border-right: 2px solid var(--border1);
-        border-top: 2px solid var(--border1);
-        border-bottom: 2px solid var(--border1);
+        border-right: 1px solid var(--border1);
+        border-top: 1px solid var(--border1);
+        border-bottom: 1px dashed var(--border1);
         box-shadow: 2px 2px #ddd;
     }
 

@@ -260,6 +260,15 @@
     #navbar {
         width: 100%;
     }
+
+    .columns {
+        display: -ms-flexbox;
+        display: flex;
+        margin-right: -.4rem;
+        margin-left: -.4rem;
+        -ms-flex-wrap: wrap;
+        flex-wrap: wrap;
+    }
     
     .nav-button {
         transition: transform 0.12s ease, box-shadow 0.12s ease;

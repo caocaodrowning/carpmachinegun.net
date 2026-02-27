@@ -56,14 +56,13 @@
         background-color: var(--bg-color);
         padding: 100px;
         font-size: var(--base-font-size);
+        min-width: 36rem;
         max-width: 60rem;
         display: block;
         float: none;
         margin-right: auto;
         margin-left: auto;
         justify-content: center;
-        min-width: 36rem;
-        max-width: 100%;
     }   
     
     main {

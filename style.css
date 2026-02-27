@@ -238,12 +238,22 @@
         background: color-mix(in srgb, var(--lighter-bg) 90%, black);
         color: color-mix(in srgb, var(--text-color) 90%, black);
     }
-
+    
     a {
         cursor: pointer;
         text-decoration: none;
         color: #000000;
-        out
+        outline: 0
+    }
+    
+    a:focus {
+        box-shadow: 0 0 0 .1rem rgba(0,0,0,.2)
+    }
+    
+    a.active,a:active,a:focus,a:hover {
+        text-decoration: none;
+        color: #000000;
+    }
     
     .bg-main {
         background-color: var(--main-bg);
@@ -1153,9 +1163,8 @@
     
     .no-decoration {
         text-decoration: none
-    }line: 0
     }
-
+    
     .div {
         display: block;
         unicode-bidi: isolate;

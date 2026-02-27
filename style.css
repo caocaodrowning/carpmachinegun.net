@@ -8,6 +8,7 @@
         --border0: #000;
         --border1: #777;
         --border2: #bfbfbf;
+        --border3: #333;
         --trans: #ffffff00;
         /* shadows & borders */
         --shadow0: #aaa; 
@@ -158,6 +159,11 @@
         overflow: visible;
         box-sizing: content-box;
         height: 0;
+        height: 1px;
+        margin: .5rem 0 .5rem;
+        color: var(--border3);
+        border: none;
+        border-top: 1px dashed var(--border0)
     }
 
     .main-seperator {
@@ -209,7 +215,7 @@
     }
     
     .text2 {
-        text-align: ;
+        text-align: center;
         margin: auto;
         display: flex;
         flex-direction: column;

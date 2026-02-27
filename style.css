@@ -18,10 +18,10 @@
         --footer-font-size: 16px;
         
         /* layout stuff */
-        --main-width: 900px;
+        --main-width: 1000px;
         --main-height: 1200px;
         --horizontal-padding: 20px;
-        --vertical-padding: 12px;
+        --vertical-padding: 10px;
         --vertical-element-padding: 10px;
         --ul-width: 300px;
         --navbar-height: 30px;

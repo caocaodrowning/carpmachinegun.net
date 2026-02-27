@@ -310,6 +310,7 @@
         padding-left: .4rem;
         -ms-flex: 1;
         flex: 1;
+        margin-bottom: 1rem;
     }
 
     .column-sm {

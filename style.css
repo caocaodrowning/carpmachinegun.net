@@ -15,6 +15,8 @@
         --body-font: 'Roboto', sans-serif;
         --heading-font: 'pgothic', sans-serif;
         --title-font-size: 25px;
+        --surtitle-font-size: 1rem;
+        --subtitle-font-size: 1rem;
         --large-font-size: 25px;
         --base-font-size: 16x;
         --small-font-size: 12px;
@@ -46,8 +48,7 @@
         font-size: var(--base-font-size);
         display: flex;
         justify-content: center;
-    }
-    
+    }   
     
     main {
         display: block;
@@ -89,6 +90,12 @@
         border: 1px solid black;
         width: 100%;
         margin-left: 15px;
+    }
+
+    header {
+        display: block;
+        max-width: inherit;
+        margin-bottom: 2rem;
     }
 
     footer {
@@ -164,7 +171,8 @@
     }
 
     .surtitle0 {
-        text:;
+        text-align: left;
+        margin: auto;
     }
     
     .subtitle0 {

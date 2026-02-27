@@ -41,7 +41,6 @@
         font-size: var(--base-font-size);
         display: flex;
         justify-content: center;
-        text-decoration: none;
     }
     
     
@@ -99,7 +98,6 @@
         left: var(--horizontal-padding);
         display: flex;
         justify-content: right;
-        text-decoration: none;
     }
 
     .dev {
@@ -1153,8 +1151,8 @@
     
     a {
         cursor: pointer;
-        text-decoration: underline;
-        color: #002dce;
+        text-decoration: none;
+        color: #000000;
         outline: 0
     }
     

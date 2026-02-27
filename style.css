@@ -99,6 +99,7 @@
         left: var(--horizontal-padding);
         display: flex;
         justify-content: right;
+        text-decoration: none;
     }
 
     .dev {

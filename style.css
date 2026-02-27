@@ -321,6 +321,17 @@
         width:25%;
         margin-bottom: 1rem;
     }
+
+    .column-nav {
+        max-width: 100%;
+        padding-right: .4rem;
+        padding-left: .4rem;
+        -ms-flex: 1;
+        flex: 1;
+        width: 16.6666667%;
+        margin-top: 0;
+        margin-bottom: 0;
+    }
     
     .nav-button {
         transition: transform 0.12s ease, box-shadow 0.12s ease;

@@ -291,11 +291,11 @@
         border-spacing: 0;
         border-collapse: collapse;
         text-align: left;
+        border-left: 4px solid var(--border1);
+        border-right: 2px solid var(--border1);
         border-top: 2px solid var(--border1);
         border-bottom: 2px solid var(--border1);
-        border-right: 2px solid var(--border1);
         box-shadow: 2px 2px #ddd;
-        border-left: 4px solid #aaa
     }
 
     .img-card {

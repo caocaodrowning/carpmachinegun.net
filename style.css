@@ -469,7 +469,6 @@
         fill: var(--main-bg)
     }
     
-
     /* TABLES */
 
     .table-silver {
@@ -506,7 +505,12 @@
         box-shadow: 2px 2px var(--shadow3)
     }
 
-    /* COLOR DEFINITIONS */
+    /* COLOR DEFINITIONS & OTHER THINGS */
+
+    p {
+        line-height: 1.5rem;
+        margin: 0 0 1.2rem;
+    }
 
     .moon-gray {
         color: var(--shadow2);

@@ -173,11 +173,19 @@
     .surtitle0 {
         text-align: left;
         margin: auto;
+        line-height: 1.2;
+        margin-top: 0;
+        margin-bottom: .5rem;
+        color: inherit;
     }
     
     .subtitle0 {
         text-align: left;
         margin: auto;
+        line-height: 1.2;
+        margin-top: 0;
+        margin-bottom: .5rem;
+        color: inherit;
     }
 
     .text1 {

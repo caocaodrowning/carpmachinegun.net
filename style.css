@@ -247,8 +247,6 @@
         margin: auto;
         display: flex;
         flex-direction: column;
-        max-width: var(--main-max-width);
-        min-width: var(--main-min-width);
         border: none;
     }
     

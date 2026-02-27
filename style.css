@@ -119,6 +119,11 @@
         min-width: var(--main-min-width);
         max-width: var(--main-max-width);
         margin-bottom: 2rem;
+        width: 100%;
+        margin-right: auto;
+        margin-left: auto;
+        padding-right: .4rem;
+        padding-left: .4rem;
     }
 
     footer {
@@ -312,15 +317,6 @@
         padding-bottom: 0;
         -ms-flex-wrap: wrap;
         flex-wrap: wrap;
-    }
-
-    .columns-head {
-        max-width: inherit;
-        width: 100%;
-        margin-right: auto;
-        margin-left: auto;
-        padding-right: .4rem;
-        padding-left: .4rem;
     }
 
     .column {

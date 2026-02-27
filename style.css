@@ -210,7 +210,7 @@
     }
     
     .argh {
-        display: ;
+        display: flex;
         justify-content: right;
         align-items: right;
     }

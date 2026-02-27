@@ -41,6 +41,11 @@
         --horizontal-padding: 14px;
         --vertical-padding: 7px;
         --vertical-element-padding: 10px;
+        --ul-width: 300px;
+        --navbar-height: 30px;
+        --navbar-width: 150;
+        --nav-button-padding: 12px;
+        --nav-button-radius: 0px;
     }
     
     html {
@@ -271,15 +276,6 @@
         border-right: 1px solid var(--border1);
         border-bottom: 1px solid var(--border1);
         border-left: 1px solid var(--border1);
-    }
-    
-    #navbar ul {
-        list-style: none;
-        padding: 0;
-        gap: var(--horizontal-padding);
-        display: flex;
-        align-items: center;
-        justify-content: center;
     }
 
     .navbar {

@@ -199,7 +199,7 @@
         display: inline-flex;
         align-items: center;
         text-align: center;
-        gap: 25px;
+        gap: 10px;
         padding: var(--nav-button-padding);
         justify-content: center;
         color: var(--text-color);

@@ -239,8 +239,6 @@
     .text1 {
         text-align: left;
         margin: auto;
-        max-width: var(--main-max-width);
-        min-width: var(--main-min-width);
         font-size: var(--large-font-size)
     }
     

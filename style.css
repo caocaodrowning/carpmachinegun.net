@@ -238,7 +238,6 @@
 
     .text1 {
         text-align: left;
-        margin: auto;
         font-size: var(--large-font-size)
     }
     

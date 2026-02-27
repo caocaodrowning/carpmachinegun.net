@@ -238,7 +238,8 @@
 
     .text1 {
         text-align: left;
-        font-size: var(--large-font-size)
+        font-size: var(--large-font-size);
+        max-width: 100%
     }
     
     .text2 {

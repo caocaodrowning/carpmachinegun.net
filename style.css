@@ -308,6 +308,8 @@
         background: #fe5555;
         margin-right: 6px;
     }
+
+    /* BUTTONS */
     
     .btn-classic {
         font-family: 'Courier New', Courier, monospace;
@@ -346,6 +348,8 @@
         fill: var(--main-bg);
     }
 
+    /* TABLES */
+
     .table-silver {
         font-size: var(--ul-font-size);
         width: 100%;
@@ -368,6 +372,8 @@
         border: .1rem solid var(--border2)
     }
 
+    /* IMAGES */
+
     .img-card {
         display: block;
         max-width: 100%;
@@ -377,6 +383,8 @@
         border: 1px solid var(--shadow0);
         box-shadow: 2px 2px var(--shadow3)
     }
+
+    /* FOR CLEANUP */
 
     .moon-gray {
         color: var(--shadow2);

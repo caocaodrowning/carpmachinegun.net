@@ -387,6 +387,10 @@
         margin-right: 6px;
     }
 
+    ul {
+        list-style: disc outside
+    }
+
     /* BUTTONS */
     
     .btn-classic {

@@ -472,6 +472,8 @@
     
     /* TABLES */
 
+    
+
     .table-silver {
         font-size: var(--table-font-size1);
         width: 100%;
@@ -485,7 +487,8 @@
         box-shadow: 2px 2px var(--shadow3)
     }
 
-    .table td {
+    .table td,
+    .table-silver td {
         line-height: 1.4rem;
         overflow: hidden;
         height: 1.85rem;

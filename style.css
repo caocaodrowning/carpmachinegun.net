@@ -4,6 +4,7 @@
         --bg-color: #adadad;
         --main-bg: #ffffff;
         --lighter-bg: #ffffff;
+        --border0: #000;
         --border1: #777;
         --border2: #bfbfbf;
         --text-color: #000000;
@@ -221,10 +222,10 @@
         gap: 10px;
         padding: var(--nav-button-padding);
         color: var(--text-color);
-        border-top: 1px solid var(--border1);
-        border-right: 1px solid var(--border1);
-        border-bottom: 1px solid var(--border1);
-        border-left: 1px solid var(--border1);
+        border-top: 1px solid var(--border0);
+        border-right: 1px solid var(--border0);
+        border-bottom: 1px solid var(--border0);
+        border-left: 1px solid var(--border0);
         background: var(--lighter-bg);
         font-size: var(--nav-button-font-size);
         width: 150px;
@@ -232,20 +233,20 @@
     }
     
     .nav-button:hover {
-        border-top: 1px solid color-mix(in srgb, var(--border1) 95%, black);
-        border-right: 1px solid color-mix(in srgb, var(--border1) 95%, black);
-        border-bottom: 1px solid color-mix(in srgb, var(--border1) 95%, black);
-        border-left: 1px solid color-mix(in srgb, var(--border1) 95%, black);
+        border-top: 1px solid color-mix(in srgb, var(--border0) 95%, black);
+        border-right: 1px solid color-mix(in srgb, var(--border0) 95%, black);
+        border-bottom: 1px solid color-mix(in srgb, var(--border0) 95%, black);
+        border-left: 1px solid color-mix(in srgb, var(--border0) 95%, black);
         background: color-mix(in srgb, var(--lighter-bg) 95%, black);
         color: color-mix(in srgb, var(--text-color) 95%, black);
     }
     
     .nav-button:active {
         transform: translate(1px, 1px);
-        border-top: 1px solid color-mix(in srgb, var(--border1) 90%, black);
-        border-right: 1px solid color-mix(in srgb, var(--border1) 90%, black);
-        border-bottom: 1px solid color-mix(in srgb, var(--border1) 90%, black);
-        border-left: 1px solid color-mix(in srgb, var(--border1) 90%, black);
+        border-top: 1px solid color-mix(in srgb, var(--border0) 90%, black);
+        border-right: 1px solid color-mix(in srgb, var(--border0) 90%, black);
+        border-bottom: 1px solid color-mix(in srgb, var(--border0) 90%, black);
+        border-left: 1px solid color-mix(in srgb, var(--border0) 90%, black);
         background: color-mix(in srgb, var(--lighter-bg) 90%, black);
         color: color-mix(in srgb, var(--text-color) 90%, black);
     }

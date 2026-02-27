@@ -144,7 +144,7 @@
     }
     
     .argh1 {
-        text-align: center;
+        text-align: left;
         width: 100%;
         margin: auto;
         font-size: var(--large-font-size)

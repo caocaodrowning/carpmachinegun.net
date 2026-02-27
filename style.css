@@ -31,6 +31,7 @@
         --base-font-size: 16x;
         --small-font-size: 12px;
         --ul-font-size: 12px;
+        --table-font-size1: 1rem;
         --nav-button-font-size: 20px;
         --footer-font-size: 16px;
         
@@ -472,14 +473,14 @@
     /* TABLES */
 
     .table-silver {
-        font-size: var(--ul-font-size);
+        font-size: var(--table-font-size1);
         width: 100%;
         border-spacing: 0;
         border-collapse: collapse;
         text-align: left;
         border-left: 4px solid var(--border1);
         border-right: 1px solid var(--border2);
-        border-top: 1px dashed var(--border2);
+        border-top: 1px dotted var(--border2);
         border-bottom: 1px solid var(--border2);
         box-shadow: 2px 2px var(--shadow3)
     }

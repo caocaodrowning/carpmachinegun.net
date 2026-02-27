@@ -516,6 +516,13 @@
         margin: 0 0 1.2rem;
     }
 
+    blockquote {
+        margin-right: 0;
+        margin-left: 0;
+        padding: .4rem .8rem;
+        border-left: .1rem solid var(--border0)
+    }
+
     .moon-gray {
         color: var(--shadow2);
         fill: var(--shadow2);

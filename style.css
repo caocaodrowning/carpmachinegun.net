@@ -4,12 +4,12 @@
         --bg-color: #eee;
         --main-bg: #fff;
         --lighter-bg: #fff;
-        /* borders */
+        /* borders & backgrounds */
         --border0: #000;
         --border1: #777;
         --border2: #bfbfbf;
         --trans: #ffffff00;
-        /* shadows or borders */
+        /* shadows & borders */
         --shadow0: #aaa; 
         --shadow1: #bbb;
         --shadow2: #ccc;
@@ -333,7 +333,17 @@
         box-shadow: 2px 2px var(--shadow1);
         -webkit-appearance: none;
         appearance: none;
-        fill: var(--border0)
+        fill: var(--border0);
+    }
+
+    .btn-classic:active,
+    .btn-classic:hover,
+    .btn-classiv:active {
+        text-decoration: none;
+        color: var(--main-bg);
+        border-color: var(--border0);
+        background: var(--border0);
+        fill: var(--main-bg);
     }
 
     .table-silver {

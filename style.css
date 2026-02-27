@@ -123,6 +123,7 @@
     }
 
     footer {
+        display: flex;
         min-width: var(--main-min-width);
         max-width: var(--main-max-width);
         text-align: right;
@@ -132,7 +133,6 @@
         padding-top: var(--vertical-element-padding);
         left: var(--horizontal-padding);
         bottom:var(--vertical-padding);
-        display: flex;
         justify-content: right;
     }
 

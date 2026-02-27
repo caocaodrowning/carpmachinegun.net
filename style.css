@@ -22,7 +22,7 @@
         /* layout stuff */
         --main-width: 1000px;
         --main-height: 1200px;
-        --horizontal-padding: 0px;
+        --horizontal-padding: 10px;
         --vertical-padding: 10px;
         --vertical-element-padding: 10px;
         --ul-width: 300px;
@@ -201,6 +201,10 @@
         display: flex;
         align-items: center;
         justify-content: center;
+    }
+
+    .navbar {
+        width: 100%;
     }
     
     .nav-button {

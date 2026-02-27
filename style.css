@@ -2,8 +2,8 @@
     :root {
         /* colors */
         --bg-color: #eee;
-        --main-bg: #ffffff;
-        --lighter-bg: #ffffff;
+        --main-bg: #fff;
+        --lighter-bg: #fff;
         /* borders */
         --border0: #000;
         --border1: #777;

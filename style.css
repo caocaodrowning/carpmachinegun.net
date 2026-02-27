@@ -56,7 +56,10 @@
         background-color: var(--bg-color);
         padding: 100px;
         font-size: var(--base-font-size);
-        display: flex;
+        display: block;
+        float: none;
+        margin-right: auto;
+        margin-left: auto;
         justify-content: center;
     }   
     

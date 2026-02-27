@@ -62,7 +62,10 @@
         max-width: var(--main-max-width);
         display: block;
         float: none;
+        /* V this might need to go in main */
         margin: 0;
+        margin-top: 28px;
+        margin-bottom: auto;
         margin-right: auto;
         margin-left: auto;
         justify-content: center;

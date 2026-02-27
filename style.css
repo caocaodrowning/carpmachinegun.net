@@ -168,7 +168,7 @@
         border-top: 1px dashed var(--border0)
     }
 
-    hr-solid {
+    hr.solid {
         margin-bottom: .25rem;
         border-top: none;
         border-bottom: 1px solid var(--border0)

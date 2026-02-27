@@ -8,6 +8,7 @@
         --border1: #777;
         --border2: #bfbfbf;
         --trans: #ffffff00;
+        --shadow1: #bbb;
         --text-color: #000000;
         
         /* text */
@@ -66,7 +67,7 @@
         padding-bottom: var(--vertical-padding);
         padding-top: var(--vertical-padding);
         position: relative;
-        box-shadow: 2px 2px 95%, black
+        box-shadow: 2px 2px var(--shadow1)
     }
     
     .title {
@@ -339,7 +340,7 @@
         border-right: 1px solid var(--border2);
         border-top: 1px dashed var(--border2);
         border-bottom: 1px solid var(--border2);
-        box-shadow: 2px 2px #ddd;
+        box-shadow: 2px 2px #bbb;
     }
 
     .table td {

@@ -1,12 +1,13 @@
     /* change these van */
     :root {
         /* colors */
-        --bg-color: #adadad;
+        --bg-color: #ccc;
         --main-bg: #ffffff;
         --lighter-bg: #ffffff;
         --border0: #000;
         --border1: #777;
         --border2: #bfbfbf;
+        --trans: #ffffff00;
         --text-color: #000000;
         
         /* text */
@@ -132,6 +133,21 @@
         letter-spacing: .1px;
         text-transform: uppercase;
         border: 1px dotted #000;
+    }
+
+    header {
+        overflow: visible;
+        box-sizing: content-box;
+        height: 0;
+    }
+
+    .main-seperator {
+        border: none;
+        background: radial-gradient(var(--border1) .5px,var(--trans) 1px) 0 0/3px 3px,var(--main-bg);
+        height: 1rem;
+        max-height: 1rem;
+        margin-bottom: 3rem;
+
     }
     
     .seperator {

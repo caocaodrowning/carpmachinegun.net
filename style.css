@@ -278,10 +278,6 @@
         border-left: 1px solid var(--border1);
     }
 
-    .navbar {
-        padding-top: 0;
-    }
-
     .columns {
         display: -ms-flexbox;
         display: flex;

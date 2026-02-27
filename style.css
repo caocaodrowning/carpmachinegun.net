@@ -204,13 +204,11 @@
     }
 
     .navbar {
-        min-width: 150px;
-        max-width: 150px;
+        width: 100%;
     }
 
     #navbar {
-        min-width: 150px;
-        max-width: 150px;
+        width: 100%;
     }
     
     .nav-button {

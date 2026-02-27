@@ -285,10 +285,7 @@
     }
 
     .navbar {
-        width: 100%;
-    }
-
-    #navbar {
+        padding-top: 0;
         width: 100%;
     }
 

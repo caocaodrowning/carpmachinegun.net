@@ -116,7 +116,8 @@
 
     header {
         display: block;
-        max-width: inherit;
+        min-width: var(--main-min-width);
+        max-width: var(--main-max-width);
         margin-bottom: 2rem;
     }
 

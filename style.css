@@ -188,8 +188,6 @@
     #navbar ul {
         list-style: none;
         padding: 0;
-        margin-left: -28x;
-        margin-right: -28x;
         gap: var(--horizontal-padding);
         display: flex;
         align-items: center;

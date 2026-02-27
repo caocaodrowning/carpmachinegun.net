@@ -247,7 +247,6 @@
     }
     
     a:focus {
-        box-shadow: 0 0 0 .1rem rgba(0,0,0,.2)
     }
     
     a.active,a:active,a:focus,a:hover {

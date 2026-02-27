@@ -239,8 +239,8 @@
     .text1 {
         text-align: left;
         margin: auto;
-        max-width: 500px;
-        min-width: 500px;
+        max-width: var(--main-max-width);
+        min-width: var(--main-min-width);
         font-size: var(--large-font-size)
     }
     
@@ -249,8 +249,8 @@
         margin: auto;
         display: flex;
         flex-direction: column;
-        max-width: 500px;
-        min-width: 500px;
+        max-width: var(--main-max-width);
+        min-width: var(--main-min-width);
         border: none;
     }
     

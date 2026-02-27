@@ -36,6 +36,8 @@
         
         /* layout stuff */
         --main-width: 1000px;
+        --main-min-width: 36rem;
+        --main-max-width: 60rem;
         --main-height: 1200px;
         --horizontal-padding: 14px;
         --vertical-padding: 7px;
@@ -56,8 +58,8 @@
         background-color: var(--bg-color);
         padding: 100px;
         font-size: var(--base-font-size);
-        min-width: 36rem;
-        max-width: 60rem;
+        min-width: var(--main-min-width);
+        max-width: var(--main-max-width);
         display: block;
         float: none;
         margin-right: auto;
@@ -69,8 +71,8 @@
         display: block;
         background-color: var(--main-bg);
         background-position: center;
-        max-width: var(--main-width);
-        min-width: var(--main-width);
+        max-width: var(--main-max-width);
+        min-width: var(--main-min-width);
         min-height: var(--main-height);
         border-top: 1px solid var(--border1);
         border-right: 1px solid var(--border1);
@@ -119,7 +121,8 @@
     }
 
     footer {
-        min-width: var(--main-width);
+        min-width: var(--main-min-width);
+        max-width: var(--main-max-width);
         text-align: right;
         font-size: var(--footer-font-size);
         font-family: var(--heading-font);

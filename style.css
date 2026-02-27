@@ -298,7 +298,10 @@
     }
 
     .columns-nav {
+        margin: .4rem 0 .4rem 1.6rem;
+        padding: 0;
         list-style: disc-outside;
+        list-style-type: circle;
         display: -ms-flexbox;
         display: flex;
         margin-right: -.4rem;

@@ -162,6 +162,10 @@
         justify-content: right;
         align-items: right;
     }
+
+    .surtitle0 {
+        text:;
+    }
     
     .subtitle0 {
         text-align: left;
@@ -315,6 +319,15 @@
         border-top: 1px dashed var(--border2);
         border-bottom: 1px solid var(--border2);
         box-shadow: 2px 2px #ddd;
+    }
+
+    .table td {
+        line-height: 1.4rem;
+        overflow: hidden;
+        height: 1.85rem;
+        padding: .2rem .4rem 0;
+        text-overflow: ellipsis;
+        border: .1rem solid var(--border2)
     }
 
     .img-card {

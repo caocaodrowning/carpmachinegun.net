@@ -96,6 +96,7 @@
         position: absolute;
         padding-top: var(--vertical-element-padding);
         left: var(--horizontal-padding);
+        bottom:var(--vertical-padding);
         display: flex;
         justify-content: right;
     }
@@ -144,7 +145,6 @@
     
     .argh1 {
         text-align: left;
-        width: 100%;
         margin: auto;
         font-size: var(--large-font-size)
     }

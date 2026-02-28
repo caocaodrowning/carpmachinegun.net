@@ -547,7 +547,6 @@
         margin-bottom: 2px;
         border: 1px solid var(--shadow0);
         flex: 1 1 auto;
-        flex-wrap: wrap;
         box-shadow: 2px 2px var(--shadow3)
     }
 

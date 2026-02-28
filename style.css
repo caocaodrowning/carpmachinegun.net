@@ -28,7 +28,7 @@
         --subtitle-font-size: 1rem;
         --subtitle-font-weight: 700;
         --large-font-size: 25px;
-        --base-font-size: 16x;
+        --base-font-size: 14x;
         --small-font-size: 12px;
         --ul-font-size: 12px;
         --table-font-size1: 1rem;
@@ -239,7 +239,7 @@
 
     .text1 {
         text-align: left;
-        font-size: var(--large-font-size);
+        font-size: var(--base-font-size);
         max-width: 100%;
         -ms-flex: 1;
         flex: 1;

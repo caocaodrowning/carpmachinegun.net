@@ -548,7 +548,7 @@
         margin-right: 2px;
         margin-bottom: 2px;
         border: 1px solid var(--shadow0);
-        box-sizing: inherit;
+        flex-wrap: wrap;
         box-shadow: 2px 2px var(--shadow3)
     }
 
@@ -579,7 +579,7 @@
     ol ol {
         list-style-type: lower-alpha;
     }
-    
+
     /*
     *,::after,::before {
         box-sizing: inherit;

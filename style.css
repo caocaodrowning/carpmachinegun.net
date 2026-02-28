@@ -330,8 +330,8 @@
         max-width: 100%;
         padding-right: .4rem;
         padding-left: .4rem;
-        -ms-flex: none;
-        flex: none;
+        -ms-flex: 1;
+        flex: 1;
         width: 16.6666667%;
         margin-top: 0;
         margin-bottom: 0;

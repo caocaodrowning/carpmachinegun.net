@@ -19,12 +19,12 @@
         --text-color: #000000;
         
         /* text */
-        --title-font: 'Roboto-Regular', sans-serif;
-        --body-font: 'Roboto-Regular', sans-serif;
-        --heading-font: 'pgothic', sans-serif;
+        --title-font: 'Roboto-Regular', monospace;
+        --body-font: 'Roboto-Regular', monospace;
+        --heading-font: 'pgothic', monospace;
         --web-font: 'IBMPlexMono-Regular', monospace;
-        --btn-classic-font: 'Roboto-Regular', sans-serif;
-        --btn-nav-font: 'Roboto-Regular', sans-serif;
+        --btn-classic-font: 'Roboto-Regular', monospace;
+        --btn-nav-font: 'Roboto-Regular', monospace;
         --title-font-size: 25px;
         --surtitle-font-size: 1rem;
         --surtitle-font-weight: 700;

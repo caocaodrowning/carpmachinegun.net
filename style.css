@@ -506,6 +506,19 @@
         box-shadow: 2px 2px var(--shadow3)
     }
 
+    .table tbody th {
+        border: .1rem solid var(--border2)
+    }
+
+    .table th {
+        font-weight: 700;
+        line-height: 1.2rem;
+        height: 1.85rem;
+        padding: .2rem .4rem 0;
+        border-right: .1rem solid var(--border2);
+        border-bottom: .1rem solid var(#000);
+    }
+
     .table td {
         line-height: 1.4rem;
         overflow: hidden;

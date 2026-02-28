@@ -525,7 +525,7 @@
         height: 1.85rem;
         padding: .2rem .4rem 0;
         text-overflow: ellipsis;
-        border: .1rem solid var(--border2)
+        border-bottom: .1rem solid var(--border2)
     }
 
     /* IMAGES */

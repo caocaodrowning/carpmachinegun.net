@@ -537,6 +537,10 @@
 
     /* IMAGES */
 
+    .img {
+        border-style: none;
+    }
+
     .img-card {
         display: block;
         max-width: 100%;
@@ -544,6 +548,7 @@
         margin-right: 2px;
         margin-bottom: 2px;
         border: 1px solid var(--shadow0);
+        box-sizing: inherit;
         box-shadow: 2px 2px var(--shadow3)
     }
 

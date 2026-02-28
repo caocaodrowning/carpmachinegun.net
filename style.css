@@ -428,8 +428,7 @@
     }
 
     .btn-classic:focus,
-    .btn-classic:hover,
-    .btn-classiv:active {
+    .btn-classic:hover {
         text-decoration: none;
         color: var(--main-bg);
         border-color: var(--border0);
@@ -471,14 +470,19 @@
     }
 
     .btn-nav:focus,
-    .btn-nav:hover,
-    .btn-nav:active {
+    .btn-nav:hover {
         text-decoration: none;
         color: var(--main-bg);
         border-color: var(--border0);
         background: var(--border0);
         box-shadow: 2px 2px var(--shadow1);
         fill: var(--main-bg)
+    }
+
+    .btn-nav:active {
+        text-decoration: none;
+        color: var(--border0);
+        background: var(--main-bg);
     }
     
     /* TABLES */

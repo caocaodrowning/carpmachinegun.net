@@ -132,8 +132,8 @@
         text-align: right;
         font-size: var(--footer-font-size);
         font-family: var(--heading-font);
+        font-stretch: condensed;
         color: var(--text-color);
-        padding-top: var(--vertical-element-padding);
         left: var(--horizontal-padding);
         bottom:var(--vertical-padding);
         justify-content: right;

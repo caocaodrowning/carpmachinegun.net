@@ -579,10 +579,11 @@
     ol ol {
         list-style-type: lower-alpha;
     }
-
+    
+    /*
     *,::after,::before {
         box-sizing: inherit;
-    }
+    } */
 
     img {
         border-style: none;

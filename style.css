@@ -140,6 +140,18 @@
     }
 
     .dev {
+        font-style: normal;
+        font-stretch: condensed;
+        font-family:  var(--body-font);
+        font-size: var(--base-font-size);
+        color: var(--shadow2);
+        text-align: left;
+        max-width: 100%;
+        -ms-flex: 1;
+        flex: 1;
+    }
+
+    .web {
         background: #79002c;
         color: white;
         font-family:'Courier New', Courier, monospace;
@@ -545,6 +557,11 @@
         margin-left: 0;
         padding: .4rem .8rem;
         border-left: .1rem solid var(--border0)
+    }
+
+    .small {
+        font-size: 80%;
+        font-weight: 400;
     }
 
     .moon-gray {

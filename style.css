@@ -516,6 +516,27 @@
         margin: 0 0 1.2rem;
     }
 
+    ol,ul {
+        margin: .4rem 0 .4rem 1.6rem;
+        padding:0;
+    }
+
+    ul {
+        list-style: disc outside;
+    }
+
+    ul ul {
+        list-style-type: circle
+    }
+
+    ol {
+        list-style: decimal outside;
+    }
+
+    ol ol {
+        list-style-type: lower-alpha;
+    }
+
     blockquote {
         margin-right: 0;
         margin-left: 0;

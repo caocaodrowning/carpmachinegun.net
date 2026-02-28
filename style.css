@@ -453,6 +453,7 @@
         border-radius: 0;
         outline: 0;
         background: var(--main-bg);
+        box-sizing: inherit;
         box-shadow: 2px 2px var(--shadow1);
         -webkit-appearance: none;
         appearance: none;

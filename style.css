@@ -498,8 +498,7 @@
         box-shadow: 2px 2px var(--shadow3)
     }
 
-    .table td,
-    .table-silver td {
+    .td {
         line-height: 1.4rem;
         overflow: hidden;
         height: 1.85rem;

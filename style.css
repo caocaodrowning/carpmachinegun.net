@@ -687,3 +687,8 @@
     .text-primary {
         color: var(--text-color);
     }
+
+    .mw9 {
+        width: 9rem;
+        max-width: 9rem;
+    }

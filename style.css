@@ -514,7 +514,7 @@
         border-collapse: collapse;
         text-align: left;
         border-top: 2px dotted var(--shadow3);
-        box-shadow: 2px 2px var(var(--shadow3));
+        box-shadow: 2px 2px var(--shadow3);
     }
 
     .table-silver {

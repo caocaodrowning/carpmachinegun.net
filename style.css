@@ -333,10 +333,10 @@
         margin-left: -.4rem;
         margin-top: 0;
         margin-bottom: 0;
-        padding-top: 0;
-        padding-bottom: 0;
         -ms-flex-wrap: wrap;
         flex-wrap: wrap;
+        padding-top: 0;
+        padding-bottom: 0;
     }
 
     .column {
@@ -603,6 +603,15 @@
         float: none;
         margin-right: auto;
         margin-left: auto;
+    }
+
+    .nav {
+        display: -ms-flexbox;
+        display: flex;
+        -ms-flex-direction: column;
+        flex-direction: column;
+        margin: .2rem 0;
+        list-style: none;
     }
 
     /*

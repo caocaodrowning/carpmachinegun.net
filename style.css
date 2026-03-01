@@ -601,6 +601,8 @@
         float: none;
         margin-right: auto;
         margin-left: auto;
+        min-width: var(--main-min-width);
+        max-width: var(--main-max-width);
     }
 
     .nav {

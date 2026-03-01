@@ -610,10 +610,9 @@
         list-style: none;
     }
 
-    /*
     *,::after,::before {
         box-sizing: inherit;
-    } */
+    }
 
     img {
         border-style: none;

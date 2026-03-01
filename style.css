@@ -54,9 +54,7 @@
     
     html {
         font-size: 14px;
-        /* necessary?
         line-height: 1.5rem;
-        */
         box-sizing: border-box;
         background-color: var(--bg-color);
     }

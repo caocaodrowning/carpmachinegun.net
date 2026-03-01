@@ -334,6 +334,7 @@
         flex-wrap: wrap;
         padding-top: 0;
         padding-bottom: 0;
+        box-sizing: inherit;
     }
 
     .column {

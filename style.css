@@ -323,6 +323,7 @@
     }
 
     .columns-nav {
+        display: flex;
         margin: .4rem 0 .4rem 1.6rem;
         padding: 0;
         margin-right: -.4rem;

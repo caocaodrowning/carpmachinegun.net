@@ -83,11 +83,10 @@
         min-height: var(--main-height);
         */
         margin: 0;
-        /*needs to be border1 here but it messes up spacing, maybe redo*/
-        border-top: 1px solid var(--border0);
-        border-right: 1px solid var(--border0);
-        border-bottom: 1px solid var(--border0);
-        border-left: 1px solid var(--border0);
+        border-top: 1px solid var(--border1);
+        border-right: 1px solid var(--border1);
+        border-bottom: 1px solid var(--border1);
+        border-left: 1px solid var(--border1);
         padding-left: var(--horizontal-padding);
         padding-right: var(--horizontal-padding);
         padding-bottom: var(--vertical-padding);

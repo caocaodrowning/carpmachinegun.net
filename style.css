@@ -54,6 +54,8 @@
     
     html {
         font-size: 14px;
+        line-height: 1.5rem;
+        box-sizing: border-box;
         background-color: var(--bg-color);
     }
     
@@ -334,7 +336,6 @@
         flex-wrap: wrap;
         padding-top: 0;
         padding-bottom: 0;
-        box-sizing: inherit;
     }
 
     .column {

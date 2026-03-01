@@ -347,14 +347,14 @@
         margin-bottom: 1rem;
     }
 
-    .column-sm {
+    .column-col3 {
         max-width: 100%;
         padding-right: .4rem;
         padding-left: .4rem;
         -ms-flex: 1;
         flex: 1;
-        width: 25%;
         margin-bottom: 1rem;
+        width: 25%;
     }
 
     .column-nav {

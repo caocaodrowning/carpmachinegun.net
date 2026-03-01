@@ -598,6 +598,13 @@
         list-style-type: lower-alpha;
     }
 
+    .p-centered {
+        display: block;
+        float: none;
+        margin-right: auto;
+        margin-left: auto;
+    }
+
     /*
     *,::after,::before {
         box-sizing: inherit;

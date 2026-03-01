@@ -531,6 +531,10 @@
         box-shadow: 2px 2px var(--shadow3)
     }
 
+    .table-dark-green {
+        border-left: 4px solid #00794c
+    }
+
     .table tbody th {
         border: .1rem solid var(--border2)
     }
@@ -577,6 +581,10 @@
         box-shadow: inset 2px 2px var(--shadow3);
         -webkit-appearance: none;
         appearance: none;
+    }
+
+    .form-horizontal {
+        padding: 0;
     }
 
     /* IMAGES */

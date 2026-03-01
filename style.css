@@ -514,6 +514,7 @@
         border-spacing: 0;
         border-collapse: collapse;
         text-align: left;
+        border-right: 1px solid var(--border2);
         border-top: 2px dotted var(--shadow3);
         box-shadow: 2px 2px var(--shadow3);
     }

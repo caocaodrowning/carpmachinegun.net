@@ -215,7 +215,7 @@
     .main-seperator {
         border: none;
         background: radial-gradient(var(--border1) .5px,var(--trans) 1px) 0 0/3px 3px,var(--main-bg);
-        height: 0.95rem;
+        height: 1rem;
         max-height: 1rem;
         margin-bottom: 2rem;
     }

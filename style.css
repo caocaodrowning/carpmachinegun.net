@@ -464,12 +464,13 @@
         font-weight: 400;
         font-style: normal;
         font-stretch: normal;
-        line-height: 1.5rem;
+        text-transform: uppercase;
+        line-height: 1.2rem;
         position: relative;
-        top: -2px;
+        top: -.125px;
         display: inline-block;
-        height: 1.75rem;
-        padding: .1rem .5rem 0;
+        height: 1.4rem;
+        padding: .05rem 0 .05rem .75rem;
         cursor: pointer;
         -webkit-user-select: none;
         -ms-user-select: none;
@@ -521,7 +522,9 @@
     }
 
     .btn-nav:focus,
-    .btn-nav:hover {
+    .btn-nav:hover,
+    .btn-ctrl:focus,
+    .btn-ctrl:hover {
         text-decoration: none;
         color: var(--main-bg);
         border-color: var(--border0);

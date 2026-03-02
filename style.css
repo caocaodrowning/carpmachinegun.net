@@ -555,7 +555,7 @@
         height: 1.85rem;
         padding: .2rem .4rem 0;
         text-overflow: ellipsis;
-        border-bottom: .1rem solid var(--border2)
+        border: .1rem solid var(--border2)
     }
 
     .form-group {

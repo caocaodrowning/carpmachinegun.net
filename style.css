@@ -631,6 +631,7 @@
     }
 
     .form-input {
+        font: var(--body-font);
         font-size: var(--base-font-size);
         position: relative;
         top: -2px;

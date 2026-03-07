@@ -604,7 +604,11 @@
         border: .1rem solid var(--border2)
     }
 
-    .form-group {
+    .form-horizontal {
+        padding: 0;
+    }
+
+    .form-horizontal .form-group {
         display: -ms-flexbox;
         display: flex;
         -ms-flexbox: wrap;
@@ -628,10 +632,6 @@
         box-shadow: inset 2px 2px var(--shadow3);
         -webkit-appearance: none;
         appearance: none;
-    }
-
-    .form-horizontal {
-        padding: 0;
     }
 
     /* IMAGES */

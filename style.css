@@ -599,9 +599,7 @@
         line-height: 1.4rem;
         overflow: hidden;
         height: 1.85rem;
-        /*
         padding: .2rem .4rem 0;
-        */
         text-overflow: ellipsis;
         border: .1rem solid var(--border2)
     }
@@ -617,7 +615,7 @@
     }
 
     .form-horizontal {
-        padding: 0;
+        padding: .4rem 0;
     }
 
     .form-horizontal .form-group {

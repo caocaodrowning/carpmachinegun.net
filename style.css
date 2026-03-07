@@ -623,6 +623,7 @@
         display: flex;
         -ms-flexbox: wrap;
         flex-wrap: wrap;
+        margin-bottom: .4rem;
     }
 
     .form-input {

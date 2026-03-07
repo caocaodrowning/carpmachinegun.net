@@ -479,6 +479,7 @@
         vertical-align: middle;
         white-space: nowrap;
         text-decoration: none;
+        letter-spacing: .1rem;
         color: var(--border0);
         border: .1rem solid var(--border0);
         border-radius: 0;
@@ -488,6 +489,8 @@
         -webkit-appearance: none;
         appearance: none;
         fill: var(--border0);
+        width: 7rem;
+        max-width: 7rem;
     }
 
     .btn-nav {

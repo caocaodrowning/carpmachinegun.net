@@ -39,7 +39,7 @@
         --footer-font-size: 16px;
         
         /* layout stuff */
-        --main-min-width: 40rem; /* 36rem earlier */
+        --main-min-width: 36rem;
         --main-max-width: 60rem;
         --main-height: 1200px;
         --horizontal-padding: 14px;
@@ -72,7 +72,7 @@
         margin-bottom: 28px;
         margin-right: auto;
         margin-left: auto;
-        justify-content: center;
+        justify-content: block;
     }   
     
     main {

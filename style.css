@@ -93,7 +93,7 @@
         padding-right: var(--horizontal-padding);
         padding-bottom: var(--vertical-padding);
         padding-top: var(--vertical-padding);
-        position: fixed; /*used to be relative */
+        position: static; /*used to be relative */
         box-shadow: 2px 2px var(--shadow2)
     }
     

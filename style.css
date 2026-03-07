@@ -78,7 +78,7 @@
     main {
         display: block;
         background-color: var(--main-bg);
-        background-position: center;
+        background-position: relative; /*center */
         max-width: var(--main-max-width);
         min-width: var(--main-min-width);
         /* possibly not needed

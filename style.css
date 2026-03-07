@@ -428,6 +428,10 @@
     }
 
     /* BUTTONS */
+
+    button, input {
+        overflow: visible;
+    }
     
     .btn-classic {
         font-family: var(--btn-classic-font);
@@ -635,6 +639,7 @@
         max-width: 100%;
         height: 1.75rem;
         padding: .5rem .1rem .3rem .4rem;
+        padding-left: .95rem; /*idk*/
         color: var(--border0);
         border: .1rem solid var(--border0);
         outline: 0;

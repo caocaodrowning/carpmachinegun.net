@@ -78,7 +78,7 @@
     main {
         display: block;
         background-color: var(--main-bg);
-        background-position: relative; /*center */
+        background-position: center;
         max-width: var(--main-max-width);
         min-width: var(--main-min-width);
         /* possibly not needed
@@ -310,7 +310,7 @@
     }
 
     header.container {
-        max-width: inherit;
+        max-width: var(--main-max-width); /* inherit */
         width: 100%;
         margin-right: auto;
         margin-left: auto;

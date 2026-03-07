@@ -604,6 +604,16 @@
         border: .1rem solid var(--border2)
     }
 
+    .table-form td {
+        line-height: 1.4rem;
+        overflow: hidden;
+        height: 1.85rem;
+        padding-top: .5rem;
+        padding-bottom: .25rem;
+        text-overflow: ellipsis;
+        border: .1rem solid var(--border2);
+    }
+
     .form-horizontal {
         padding: 0;
     }

@@ -499,8 +499,6 @@
         -webkit-appearance: none;
         appearance: none;
         fill: var(--border0);
-        width: 7rem;
-        max-width: 7rem;
     }
 
     .btn-nav {
@@ -778,6 +776,11 @@
     
     .text-primary {
         color: var(--text-color);
+    }
+
+    .mw7 {
+        width: 7rem;
+        max-width: 7rem;
     }
 
     .mw9 {

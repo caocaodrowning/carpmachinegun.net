@@ -162,7 +162,7 @@
 
     .web {
         background: #79002c;
-        color: white;
+        color: var(--main-bg);
         font-family:var(--web-font);
         font-weight: 400;
         font-style: normal;
@@ -464,7 +464,6 @@
         font-weight: 400;
         font-style: normal;
         font-stretch: normal;
-        color: var(--main-bg);
         text-transform: uppercase;
         line-height: 1.2rem;
         position: relative;
@@ -717,7 +716,8 @@
     }
 
     .white {
-        background: #fff;
+        color: white;
+        fill: white;
     }
 
     .black {

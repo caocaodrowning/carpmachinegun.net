@@ -673,7 +673,7 @@
         height: auto;
         margin-right: 2px;
         margin-bottom: 2px;
-        border: 1px solid var(--border0);
+        border: 1px dotted var(--border0);
         flex: 1 1 auto;
     }
 

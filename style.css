@@ -110,10 +110,10 @@
     }
     
     .title-text {
-        font-style: normal;
-        font-stretch: condensed;
         font-family: var(--title-font);
         font-size: var(--title-font-size);
+        line-height: 1.2rem;
+        font-stretch: condensed;
         text-align: left;
     }
     

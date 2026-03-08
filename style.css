@@ -93,7 +93,7 @@
         padding-right: var(--horizontal-padding);
         padding-bottom: var(--vertical-padding);
         padding-top: var(--vertical-padding);
-        position: relative;
+        position: absolute; /*was relative */
         box-shadow: 2px 2px var(--shadow2)
     }
     
@@ -218,8 +218,8 @@
     .main-seperator {
         border: none;
         background: radial-gradient(var(--border1) .5px,var(--trans) 1px) 0 0/3px 3px,var(--main-bg);
-        height: 1rem;
-        max-height: 1rem;
+        height: 1.1rem;
+        max-height: 1.1rem;
         margin-bottom: 2rem;
     }
     
@@ -790,3 +790,5 @@
         width: 9rem;
         max-width: 9rem;
     }
+
+    /* Media */

@@ -667,6 +667,16 @@
         box-shadow: 2px 2px var(--shadow3)
     }
 
+    .img-card2 {
+        display: block;
+        max-width: 100%;
+        height: auto;
+        margin-right: 2px;
+        margin-bottom: 2px;
+        border: 1px solid var(--border0);
+        flex: 1 1 auto;
+    }
+
     /* COLOR DEFINITIONS & OTHER THINGS */
 
     p {
@@ -789,6 +799,11 @@
     .mw9 {
         width: 9rem;
         max-width: 9rem;
+    }
+
+    .ba {
+        border-width: 1px;
+        border-style: solid;
     }
 
     /* Media */

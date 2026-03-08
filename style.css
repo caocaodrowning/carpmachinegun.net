@@ -25,7 +25,8 @@
         --web-font: 'IBMPlexMono-Regular', monospace;
         --btn-classic-font: 'Roboto-Regular', monospace;
         --btn-nav-font: 'Roboto-Regular', monospace;
-        --title-font-size: 25px;
+
+        --title-font-size: 30px;
         --surtitle-font-size: 1rem;
         --surtitle-font-weight: 700;
         --subtitle-font-size: 1rem;
@@ -112,7 +113,7 @@
         font-style: normal;
         font-stretch: condensed;
         font-family: var(--title-font);
-        font-size: var(--title-font-size);;
+        font-size: var(--title-font-size);
         text-align: left;
     }
     

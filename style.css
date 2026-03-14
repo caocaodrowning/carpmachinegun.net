@@ -58,7 +58,7 @@
         line-height: 1.5rem;
         box-sizing: border-box;
         overflow-x: hidden;
-        margin-right: calc(100% - 100vw);
+        margin-right: calc(100% - 100vw); /* maybe not */
         background-color: var(--bg-color);
         -ms-text-size-adjust: 100%;
         -webkit-text-size-adjust: 100%;
@@ -78,7 +78,7 @@
         margin-left: auto;
         margin-top: 28px;
         margin-bottom: 28px;
-        justify-content: block;
+        /* justify-content: block; */
     }   
     
     main {
@@ -99,7 +99,7 @@
         padding-right: var(--horizontal-padding);
         padding-bottom: var(--vertical-padding);
         padding-top: var(--vertical-padding);
-        position: absolute; /*was relative */
+        position: relative; /* try absolute if shi dont work */
         box-shadow: 2px 2px var(--shadow2)
     }
     

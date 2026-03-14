@@ -40,7 +40,7 @@
         --footer-font-size: 16px;
         
         /* layout stuff */
-        --main-min-width: 30rem; /* was 36rem earlier */
+        --main-min-width: 1rem; /* was 36rem earlier */
         --main-max-width: 60rem;
         --main-height: 1200px;
         --horizontal-padding: 19px; /* was 14px once */

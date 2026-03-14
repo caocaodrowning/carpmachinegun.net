@@ -133,7 +133,6 @@
         display: block;
         min-width: var(--main-min-width);
         max-width: var(--main-max-width);
-        margin-bottom: 2rem;
         width: 100%;
         margin-right: auto;
         margin-left: auto;

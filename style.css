@@ -58,7 +58,7 @@
         line-height: 1.5rem;
         box-sizing: border-box;
         overflow-x: hidden;
-        margin-right: calc(100% - 100vw); /* maybe not */
+        margin-right: calc(100% - 100vw); /* this fixes sizing, do not change */
         background-color: var(--bg-color);
         -ms-text-size-adjust: 100%;
         -webkit-text-size-adjust: 100%;

@@ -40,7 +40,7 @@
         --footer-font-size: 16px;
         
         /* layout stuff */
-        --main-min-width: 1rem; /* was 36rem earlier */
+        --main-min-width: 1rem; /* keep at 1 to ensure correct phone scaling */
         --main-max-width: 60rem;
         --main-height: 1200px;
         --horizontal-padding: 19px; /* was 14px once */
@@ -58,7 +58,7 @@
         line-height: 1.5rem;
         box-sizing: border-box;
         overflow-x: hidden;
-        margin-right: calc(100% - 100vw); /* this fixes sizing, do not change */
+        margin-right: calc(100% - 100vw); /* this fixes scaling, do not change */
         background-color: var(--bg-color);
         -ms-text-size-adjust: 100%;
         -webkit-text-size-adjust: 100%;
@@ -317,15 +317,10 @@
         width: 100%;
         margin-right: auto;
         margin-left: auto;
-        
-        /* padding messes shit up bruh
-        padding-right: .4rem;
-        padding-left: .4rem;
-        */
     }
 
     header.container {
-        max-width: inherit; /* var(--main-max-width);  inherit < should be */
+        max-width: inherit;
         width: 100%;
         margin-right: auto;
         margin-left: auto;
@@ -813,7 +808,7 @@
     
     a {
         cursor: pointer;
-        text-decoration: underline; /* none maybe */
+        text-decoration: none;
         color: #002dce;
         outline: 0
         
@@ -861,7 +856,7 @@
         padding: .5rem;
     }
 
-    /* Media */
+    /* MEDIA */
 
     @media (max-width: 720px) {
          .col-md-6,.col-md-12,.col-md-nav,.col-md-logo {

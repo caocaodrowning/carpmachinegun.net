@@ -103,7 +103,12 @@
         box-shadow: 2px 2px var(--shadow2)
     }
     
-    .title {
+    .title-text {
+        font-family: var(--title-font);
+        font-size: var(--title-font-size);
+        line-height: 1.2rem;
+        font-stretch: condensed;
+        text-align: left;
         display: flex;
         justify-content: left;
         align-items: left;
@@ -115,14 +120,6 @@
         text-decoration: none;
         -ms-flex: 0 1 auto;
         flex: 0 1 auto;
-    }
-    
-    .title-text {
-        font-family: var(--title-font);
-        font-size: var(--title-font-size);
-        line-height: 1.2rem;
-        font-stretch: condensed;
-        text-align: left;
     }
     
     .title-banner {

@@ -43,7 +43,7 @@
         --main-min-width: 30rem; /* was 36rem earlier */
         --main-max-width: 60rem;
         --main-height: 1200px;
-        --horizontal-padding: 14px;
+        --horizontal-padding: 19px; /* was 14px once */
         --vertical-padding: 7px;
         --vertical-element-padding: 10px;
         --ul-width: 300px;

@@ -402,6 +402,8 @@
     }
 
     .column-logo {
+        display: -ms-flexbox;
+        display: flex;
         max-width: 100%;
         padding-right: .4rem;
         padding-left: .4rem;

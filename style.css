@@ -317,12 +317,15 @@
         width: 100%;
         margin-right: auto;
         margin-left: auto;
+        
+        /* padding messes shit up bruh
         padding-right: .4rem;
         padding-left: .4rem;
+        */
     }
 
     header.container {
-        max-width: inherit;/* var(--main-max-width); */
+        max-width: var(--main-max-width); /* inherit*/
         width: 100%;
         margin-right: auto;
         margin-left: auto;

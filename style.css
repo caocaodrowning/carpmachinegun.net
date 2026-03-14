@@ -144,6 +144,10 @@
         margin-left: auto;
     }
 
+    nav {
+        display: block;
+    }
+
     footer {
         display: flex;
         min-width: var(--main-min-width);

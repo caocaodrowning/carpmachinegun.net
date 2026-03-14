@@ -99,7 +99,7 @@
         padding-right: var(--horizontal-padding);
         padding-bottom: var(--vertical-padding);
         padding-top: var(--vertical-padding);
-        position: relative; /* try absolute if shi dont work */
+        position: absolute; /* try absolute if shi dont work */
         box-shadow: 2px 2px var(--shadow2)
     }
     

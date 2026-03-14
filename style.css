@@ -162,6 +162,7 @@
     .dev {
         font-style: normal;
         font-stretch: condensed;
+        text-decoration: none;
         font-family:  var(--body-font);
         font-size: var(--small-font-size);
         color: var(--shadow2);

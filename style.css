@@ -325,7 +325,7 @@
     }
 
     header.container {
-        max-width: var(--main-max-width); /* inherit*/
+        max-width: var(--main-max-width); /* inherit < should be */
         width: 100%;
         margin-right: auto;
         margin-left: auto;
@@ -910,5 +910,19 @@
             width: 100%;
         }
 
+    }
+
+    @media print {
+        header {
+            display: none;
+        }
+
+        footer {
+            display: none;
+        }
+
+        .btn {
+            display: none;
+        }
     }
 

@@ -428,9 +428,9 @@
         display: -ms-flexbox;
         display: flex;
         flex-direction: column;
-        margin: .2rem 0;
+        margin: .2rem 0 .4rem;
         list-style: none;
-        -ms-flex-direction: none;
+        -ms-flex-direction: column;
     }
     
     .nav-button {

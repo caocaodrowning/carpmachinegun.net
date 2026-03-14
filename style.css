@@ -401,16 +401,15 @@
     }
 
     .column-logo {
-        display: -ms-flexbox;
-        display: flex;
         max-width: 100%;
         padding-right: .4rem;
         padding-left: .4rem;
         -ms-flex: 1;
         flex: 1;
-        margin-top: .25rem;
-        /* margin-bottom: 1rem; */
         width: 100%;
+        margin-top: .25rem;
+        display: -ms-flexbox;
+        display: flex;
     }
 
     .column-nav {

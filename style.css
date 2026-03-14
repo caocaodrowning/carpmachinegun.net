@@ -325,7 +325,7 @@
     }
 
     header.container {
-        max-width: var(--main-max-width); /* inherit < should be */
+        max-width: 100%;/* var(--main-max-width);  inherit < should be */
         width: 100%;
         margin-right: auto;
         margin-left: auto;

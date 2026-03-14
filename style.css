@@ -822,7 +822,7 @@
     /* Media */
 
     @media (max-width: 720px) {
-         .col-md-6,.col-md-12 {
+         .col-md-6,.col-md-12,.col-md-nav {
             -ms-flex: none;
             flex: none;
         }
@@ -833,6 +833,10 @@
 
         .col-md-6 {
             width: 50%;
+        }
+
+        .col-md-nav {
+            width: 33.33333333%;
         }
 
     }

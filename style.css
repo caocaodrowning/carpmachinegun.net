@@ -433,7 +433,7 @@
         flex-direction: column;
         margin: .2rem 0 .4rem;
         list-style: none;
-        -ms-flex-direction: column;
+        -ms-flex-direction: column; /* might need to go */
     }
     
     .nav-button {
@@ -766,15 +766,6 @@
         float: none;
         margin-right: auto;
         margin-left: auto;
-    }
-
-    .nav {
-        display: -ms-flexbox;
-        display: flex;
-        -ms-flex-direction: column;
-        flex-direction: column;
-        margin: .2rem 0;
-        list-style: none;
     }
 
     *,::after,::before {

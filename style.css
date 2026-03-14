@@ -74,10 +74,10 @@
         overflow-x: hidden;
         display: block;
         float: none;
-        margin-top: 28px;
-        margin-bottom: 28px;
         margin-right: auto;
         margin-left: auto;
+        margin-top: 28px;
+        margin-bottom: 28px;
         justify-content: block;
     }   
     

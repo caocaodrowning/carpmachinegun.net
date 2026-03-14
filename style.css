@@ -58,6 +58,8 @@
         line-height: 1.5rem;
         box-sizing: border-box;
         background-color: var(--bg-color);
+        -ms-text-size-adjust: 100%;
+        -webkit-text-size-adjust: 100%;
     }
     
     body {

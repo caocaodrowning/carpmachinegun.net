@@ -67,6 +67,7 @@
         font-size: var(--base-font-size);
         min-width: var(--main-min-width);
         max-width: var(--main-max-width);
+        overflow-x: hidden;
         display: block;
         float: none;
         margin-top: 28px;

@@ -771,9 +771,10 @@
     
     a {
         cursor: pointer;
-        text-decoration: none;
+        text-decoration: underline; /* none maybe */
         color: #002dce;
         outline: 0
+        
     }
     
     a:focus {

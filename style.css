@@ -384,6 +384,16 @@
         width: 50%;
     }
 
+    .column-col12 {
+        max-width: 100%;
+        padding-right: .4rem;
+        padding-left: .4rem;
+        -ms-flex: none;
+        flex: none;
+        margin-bottom: 1rem;
+        width: 100%;
+    }
+
     .column-nav {
         max-width: 100%;
         padding-right: .4rem;

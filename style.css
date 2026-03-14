@@ -111,7 +111,7 @@
         text-align: left;
         display: flex;
         justify-content: left;
-        align-items: left;
+        /* align-items: left; */
         padding-right: 1rem;
         margin-right: auto;
         margin-left: auto;

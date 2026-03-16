@@ -44,7 +44,7 @@
         --main-max-width: 60rem;
         --main-height: 1200px;
         --horizontal-padding: 19px; /* was 14px once */
-        --vertical-padding: 19px; /* was 7px once */
+        --vertical-padding: 7px; /* test some stuff with top & bottom */
         --vertical-element-padding: 10px;
         --ul-width: 300px;
         --navbar-height: 30px;

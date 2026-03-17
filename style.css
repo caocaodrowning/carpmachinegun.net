@@ -410,8 +410,8 @@
         flex: none;
         width: 100%;
         margin-top: .25rem;
-        display: -ms-flexbox;
-        display: flex;
+        /* display: -ms-flexbox;
+        display: flex; leaving this out for now*/ 
     }
 
     .column-nav {

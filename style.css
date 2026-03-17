@@ -112,7 +112,7 @@
         display: flex;
         justify-content: left;
         /* align-items: left; */
-        padding-right: 1rem;
+        padding-right: 0rem; /* 1rem; leaving this out for now*/
         margin-right: auto;
         margin-left: auto;
         white-space: nowrap;

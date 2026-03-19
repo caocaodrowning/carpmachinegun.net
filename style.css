@@ -637,7 +637,7 @@
         -webkit-appearance: none;
         appearance: none;
         fill: var(--border0);
-        touch-action: manipulation; /* testing */
+        /* touch-action: manipulation; /* testing */
     }
 
     .btn-test:focus,

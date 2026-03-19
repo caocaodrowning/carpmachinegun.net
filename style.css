@@ -633,7 +633,7 @@
         border-radius: 0;
         outline: 0;
         background: var(--main-bg);
-        box-shadow: 1px 1px 0px 0px, 2px 2px 0px 0px, 3px 3px 0px 0px, 4px 4px 0px 0px, 5px 5px 0px 0px var(--border0); /* was 2px 2px*/
+        box-shadow: 1px 1px 0px 0px var(--shadow0), 2px 2px 0px 0px var(--shadow0), 3px 3px 0px 0px var(--shadow0), 4px 4px 0px 0px var(--shadow0), 5px 5px 0px 0px var(--shadow0); /* was 2px 2px*/
         -webkit-appearance: none;
         appearance: none;
         fill: var(--border0);

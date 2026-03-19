@@ -642,6 +642,8 @@
 
     .btn-test:focus,
     .btn-test:hover {
+        text-decoration: none;
+        color: var(--main-bg);
         background: var(--border0);
         fill: var(--main-bg);
     }

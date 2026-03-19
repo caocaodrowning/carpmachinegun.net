@@ -599,7 +599,7 @@
         border-radius: 0;
         outline: 0;
         background: var(--main-bg);
-        box-shadow: 1px 1px 0px 0px, 2px 2px 0px 0px, 3px 3px 0px 0px, 4px 4px 0px 0px, 5px 5px 0px 0px; /* variable behind every line to change color*/
+        box-shadow: 1px 1px 0px 0px var(--border0), 2px 2px 0px 0px var(--border0), 3px 3px 0px 0px var(--border0), 4px 4px 0px 0px var(--border0), 5px 5px 0px 0px var(--border0); /* variable behind every line to change color*/
         -webkit-appearance: none;
         appearance: none;
         fill: var(--border0);
@@ -614,7 +614,7 @@
         color: var(--main-bg);
         border-color: var(--border0);
         background: var(--border0);
-        box-shadow: 1px 1px 0px 0px var(--border0), 2px 2px 0px 0px var(--border0), 3px 3px 0px 0px var(--border0), 4px 4px 0px 0px var(--border0), 5px 5px 0px 0px var(--border0); /* idk how else to overwrite the text-color / shadow-color connection*/
+        box-shadow: 1px 1px 0px 0px , 2px 2px 0px 0px var(--border0), 3px 3px 0px 0px var(--border0), 4px 4px 0px 0px var(--border0), 5px 5px 0px 0px var(--border0); /* idk how else to overwrite the text-color / shadow-color connection*/
     }
 
     .btn-test:active {

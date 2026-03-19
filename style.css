@@ -594,7 +594,7 @@
         vertical-align: middle;
         white-space: nowrap;
         text-decoration: none;
-        /* color: var(--border0); */
+        color: var(--border0);
         border: 3px solid var(--border0); /*was 1rem*/
         border-radius: 0;
         outline: 0;

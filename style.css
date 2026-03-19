@@ -642,8 +642,12 @@
 
     .btn-test:focus,
     .btn-test:hover {
+        text-decoration: none;
         color: #ffb700;
+        border-color: var(--border0);
         background: var(--border0);
+        box-shadow: 1px 1px 0px 0px, 2px 2px 0px 0px, 3px 3px 0px 0px, 4px 4px 0px 0px, 5px 5px 0px 0px;
+        fill: #00794c;
     }
 
     .btn-test:active {

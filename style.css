@@ -640,6 +640,12 @@
         touch-action: manipulation; /* testing */
     }
 
+    .btn-test:focus,
+    .btn-test:hover {
+        background: var(--border0);
+        fill: var(--main-bg);
+    }
+
     .btn-test:active {
         box-shadow: 0px 0px 0px 0px;
         top: 5px;

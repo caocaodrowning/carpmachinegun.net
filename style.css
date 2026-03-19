@@ -642,6 +642,7 @@
 
     .btn-test:focus,
     .btn-test:hover {
+        color: var(--main-bg);
         background: var(--border0);
     }
 

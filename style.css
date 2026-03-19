@@ -614,7 +614,7 @@
         color: var(--main-bg);
         border-color: var(--border0);
         background: var(--border0);
-        box-shadow: 1px 1px 0px 0px , 2px 2px 0px 0px var(--border0), 3px 3px 0px 0px var(--border0), 4px 4px 0px 0px var(--border0), 5px 5px 0px 0px var(--border0); /* idk how else to overwrite the text-color / shadow-color connection*/
+        box-shadow: 1px 1px 0px 0px var(--border0), 2px 2px 0px 0px var(--border0), 3px 3px 0px 0px var(--border0), 4px 4px 0px 0px var(--border0), 5px 5px 0px 0px var(--border0); /* idk how else to overwrite the text-color / shadow-color connection*/
     }
 
     .btn-test:active {

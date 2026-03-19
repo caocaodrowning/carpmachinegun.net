@@ -640,7 +640,7 @@
         /* touch-action: manipulation; testing */
     }
 
-    .btn-test:focus,
+    /*.btn-test:focus*/
     .btn-test:hover {
         text-decoration: none;
         color: #ffb700;

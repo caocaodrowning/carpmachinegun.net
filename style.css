@@ -637,7 +637,7 @@
         -webkit-appearance: none;
         appearance: none;
         fill: var(--border0);
-        /* touch-action: manipulation; /* testing */
+        touch-action: manipulation; /* testing */
     }
 
     .btn-test:focus,
@@ -647,6 +647,8 @@
         border-color: var(--border0);
         background: var(--border0);
         box-shadow: 1px 1px 0px 0px, 2px 2px 0px 0px, 3px 3px 0px 0px, 4px 4px 0px 0px, 5px 5px 0px 0px;
+        -webkit-appearance: none;
+        appearance: none;
         fill: var(--border0);
     }
 

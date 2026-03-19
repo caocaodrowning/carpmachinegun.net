@@ -616,7 +616,7 @@
         font-stretch: normal;
         line-height: 1.5rem;
         position: relative;
-        top: -2px;
+        /* top: -2px; */
         display: inline-block;
         height: 1.75rem;
         padding: .1rem .5rem 0;
@@ -628,7 +628,7 @@
         vertical-align: middle;
         white-space: nowrap;
         text-decoration: none;
-        color: var(--border0);
+        /* color: var(--border0); */
         border: 3px solid var(--border0); /*was 1rem*/
         border-radius: 0;
         outline: 0;

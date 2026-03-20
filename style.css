@@ -492,7 +492,7 @@
     .btn-classic:active {
         text-decoration: none;
         color: var(--border0);
-        background: var(--btn-classic-font);
+        background: #ffb700;
         box-shadow: 0px 0px 0px 0px;
         top: 0rem;
         left: .1rem; /* check if this feels right */

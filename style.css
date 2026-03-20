@@ -489,6 +489,15 @@
         fill: var(--main-bg);
     }
 
+    .btn-classic:active {
+        text-decoration: none;
+        color: var(--border0);
+        background: var(--main-bg);
+        box-shadow: 0px 0px 0px 0px;
+        top: 0rem;
+        left: .1rem; /* check if this feels right */
+    }
+
     .btn-ctrl {
         font-family: var(--btn-classic-font);
         font-weight: 400;

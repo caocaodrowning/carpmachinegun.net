@@ -25,7 +25,7 @@
         --body-font: 'NewsCycle-Regular'; /* check what this effects */
         --heading-font: 'pgothic', monospace;
         --web-font: 'IBMPlexMono-Regular', monospace;
-        --btn-classic-font: 'Roboto-Regular', monospace;
+        --btn-classic-font: 'NewsCycle-Regular';
         --btn-nav-font: 'NewsCycle-Regular';
 
         --title-font-size: 16px;

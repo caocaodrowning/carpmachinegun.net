@@ -52,11 +52,6 @@
         --nav-button-padding: 12px;
         --nav-button-radius: 0px;
     }
-
-    @font-face {
-        font-family: NewsCycle-Regular;;
-        src: url('assets/fonts/NewsCycle-Regular.ttf') format('truetype');
-    }
     
     html {
         font-size: 14px;
@@ -887,6 +882,18 @@
         border-width: 1px;
         border-style: dotted;
         padding: .5rem;
+    }
+
+    /* FONTS */
+
+    @font-face {
+        font-family: NewsCycle-Regular;
+        src: url('assets/fonts/NewsCycle-Regular.ttf') format('truetype');
+    }
+
+    @font-face {
+        font-family: NewsCycle-Bold;
+        src: url('assets/fonts/NewsCycle-Bold.ttf') format('truetype');
     }
 
     /* MEDIA */

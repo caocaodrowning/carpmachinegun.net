@@ -20,10 +20,7 @@
         
         /* text */
         --title-font: 'Roboto-Regular', monospace;
-        --body-font: @font-face {
-            font-family: NewsCycle-Regular;
-            src: url('assets/fonts/NewsCycle-Regular.ttf') format('truetype');
-        } /* overrides everything */ 
+        --body-font: 'NewsCycle-Regular'; /* overrides everything */
         --heading-font: 'pgothic', monospace;
         --web-font: 'IBMPlexMono-Regular', monospace;
         --btn-classic-font: 'Roboto-Regular', monospace;
@@ -41,6 +38,11 @@
         --table-font-size1: 1rem;
         --nav-button-font-size: 20px;
         --footer-font-size: 16px;
+
+        @font-face {
+            font-family: NewsCycle-Regular;
+            src: url('assets/fonts/NewsCycle-Regular.ttf') format('truetype');
+        }
         
         /* layout stuff */
         --main-min-width: 1rem; /* keep at 1 to ensure correct phone scaling */

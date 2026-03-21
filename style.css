@@ -33,13 +33,12 @@
         --surtitle-font-weight: 700;
         --subtitle-font-size: 1.2rem; /* was 1rem */
         --subtitle-font-weight: 700;
-        --large-font-size: 25px;
-        --base-font-size: 14x;
-        --small-font-size: 12px;
-        --ul-font-size: 12px;
-        --table-font-size1: 1rem;
-        --nav-button-font-size: 20px;
-        --footer-font-size: 16px;
+        --large-font-size: 25px;    /* doesnt get used, split up between sur- & sub */
+        --base-font-size: 14x;      /* rename to normal */
+        --small-font-size: 12px;    /* for the credits text, RENAME*/
+        --ul-font-size: 12px;       /* gets used once, CHECK */
+        --table-font-size1: 1rem;   /* gets used */
+        --footer-font-size: 16px;   /* gets used */
         
         /* layout stuff */
         --main-min-width: 1rem; /* keep at 1 to ensure correct phone scaling */
@@ -48,11 +47,7 @@
         --horizontal-padding: 19px; /* was 14px once */
         --vertical-padding: 7px; /* test some stuff with top & bottom */
         --vertical-element-padding: 10px;
-        --ul-width: 300px;
-        --navbar-height: 30px;
-        --navbar-width: 150;
-        --nav-button-padding: 12px;
-        --nav-button-radius: 0px;
+        --ul-width: 300px; /* does this really get used ? */
     }
     
     html {
@@ -596,7 +591,7 @@
         /* top: -2px; */
         display: inline-block;
         /* height: 1.75rem; - wrong value, keep empty to seemingly center*/ 
-        padding: .1rem .5rem 0;
+        padding: 0 .5rem 0;
         cursor: pointer;
         -webkit-user-select: none;
         -ms-user-select: none;

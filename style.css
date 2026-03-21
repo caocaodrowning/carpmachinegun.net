@@ -27,9 +27,9 @@
         --btn-nav-font: 'Roboto-Regular', monospace;
 
         --title-font-size: 16px;
-        --surtitle-font-size: 1rem;
+        --surtitle-font-size: 1.2rem; /* was 1rem */
         --surtitle-font-weight: 700;
-        --subtitle-font-size: 1rem;
+        --subtitle-font-size: 1.2rem; /* was 1rem */
         --subtitle-font-weight: 700;
         --large-font-size: 25px;
         --base-font-size: 14x;

@@ -20,7 +20,10 @@
         
         /* text */
         --title-font: 'Roboto-Regular', monospace;
-        --body-font: NewsCycle-Regular, monospace; /* overrides everything */ 
+        --body-font: @font-face {
+            font-family: NewsCycle-Regular;
+            src: url('assets/fonts/NewsCycle-Regular.ttf') format('truetype');
+        } /* overrides everything */ 
         --heading-font: 'pgothic', monospace;
         --web-font: 'IBMPlexMono-Regular', monospace;
         --btn-classic-font: 'Roboto-Regular', monospace;

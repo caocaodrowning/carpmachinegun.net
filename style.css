@@ -38,11 +38,6 @@
         --table-font-size1: 1rem;
         --nav-button-font-size: 20px;
         --footer-font-size: 16px;
-
-        @font-face {
-            font-family: NewsCycle-Regular;
-            src: url('assets/fonts/NewsCycle-Regular.ttf') format('truetype');
-        }
         
         /* layout stuff */
         --main-min-width: 1rem; /* keep at 1 to ensure correct phone scaling */
@@ -56,6 +51,11 @@
         --navbar-width: 150;
         --nav-button-padding: 12px;
         --nav-button-radius: 0px;
+    }
+
+    @font-face {
+        font-family: NewsCycle-Regular;;
+        src: url('assets/fonts/NewsCycle-Regular.ttf') format('truetype');
     }
     
     html {

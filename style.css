@@ -20,7 +20,9 @@
         
         /* text */
         --title-font: 'Roboto-Regular', monospace;
-        --body-font: 'NewsCycle-Regular'; /* overrides everything */
+        --surtitle-font: 'NewsCycle-Bold';
+        --subtitle-font: 'NewsCycle-Bold';
+        --body-font: 'NewsCycle-Regular'; /* check what this effects */
         --heading-font: 'pgothic', monospace;
         --web-font: 'IBMPlexMono-Regular', monospace;
         --btn-classic-font: 'Roboto-Regular', monospace;
@@ -262,7 +264,7 @@
     }
     
     .subtitle0 {
-        font-family: var(--body-font);
+        font-family: var(--subtitle-font);
         font-size: var(--subtitle-font-size);
         font-weight: var(--subtitle-font-weight);
         text-align: left;

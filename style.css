@@ -897,6 +897,15 @@
         padding: .5rem;
     }
 
+    .ba-solid2 {
+        border-width: 1px;
+        border-style: solid;
+        padding-top: 0rem;
+        padding-right: .25rem;
+        padding-bottom: .25rem;
+        padding-left: .25rem;
+    }
+
     .ba-dotted {
         border-width: 1px;
         border-style: dotted;

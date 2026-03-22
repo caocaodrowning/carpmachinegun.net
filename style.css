@@ -318,6 +318,18 @@
         margin-left: auto;
     }
 
+    .container-centered {
+        width: 100%;
+        margin-right: auto;
+        margin-left: auto;
+        display: -ms-flexbox;
+        display: flex;
+        -ms-flex-align: center;
+        align-items: center;
+        -ms-flex-pack: center;
+        justify-content: center;
+    }
+
     header.container {
         max-width: inherit;
         width: 100%;
@@ -387,6 +399,16 @@
         flex: none;
         margin-bottom: 1rem;
         width: 50%;
+    }
+
+    .column-col8 {
+        max-width: 100%;
+        padding-right: .4rem;
+        padding-left: .4rem;
+        -ms-flex: none;
+        flex: none;
+        margin-bottom: 1rem;
+        width: 66.66666667%;
     }
 
     .column-col12 {

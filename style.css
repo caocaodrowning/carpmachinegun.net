@@ -775,6 +775,17 @@
         flex: 1 1 auto;
     }
 
+    .img-card3 {
+        display: block;
+        max-width: 100%;
+        width: 100%;
+        height: auto;
+        margin-top: .25rem;
+        border: 1px solid var(--border0);
+        border-width: 1px;
+        border-style: solid;
+    }
+
     /* COLOR DEFINITIONS & OTHER THINGS */
 
     p {

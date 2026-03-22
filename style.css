@@ -603,6 +603,15 @@
         left: .1rem; /* check if this feels right */
     }
 
+    .btn-ctrl:active {
+        text-decoration: none;
+        color: var(--border0);
+        background: #00794c;
+        box-shadow: 0px 0px 0px 0px;
+        top: 0rem;
+        left: .1rem; /* check if this feels right */
+    }
+
     .btn-test {
         font-family: var(--btn-classic-font);
         font-weight: 400;
@@ -902,7 +911,7 @@
         max-width: 9rem;
     }
 
-    .ba-solid {
+    .ba-solid1 {
         border-width: 1px;
         border-style: solid;
         padding: .5rem;

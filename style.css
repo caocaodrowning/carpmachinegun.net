@@ -863,6 +863,10 @@
         background: #00794c;
     }
 
+    .bg-dark-red {
+        background: #e7040f;
+    }
+
     .white {
         color: white;
         fill: white;

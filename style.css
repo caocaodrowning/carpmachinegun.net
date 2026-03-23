@@ -312,6 +312,21 @@
         border-left: 1px solid var(--border1);
     }
 
+    .text2-error {
+        text-align: center;
+        margin: auto;
+        display: flex;
+        flex-direction: column;
+        border: none;
+        color: #fff;
+        background: #e7040f;
+        margin-top: .25rem;
+        margin-bottom: .25rem;
+        padding-right: .25rem;
+        padding-left: .25rem;
+        padding-bottom: 0rem;
+    }
+
     .container {
         width: 100%;
         margin-right: auto;

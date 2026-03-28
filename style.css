@@ -477,22 +477,26 @@
         margin-right: 6px;
     }
 
-    .text-scrolling { /* more like text lmao */
+    .column-scroll { /* edit shit, what about columns ? */
+        max-width: 100%;
+        padding-right: .4rem;
+        padding-left: .4rem;
+        -ms-flex: none;
+        flex: none;
+        width: 100%;
+        margin-top: .25rem;
+        display: -ms-flexbox;
         display: flex;
-        /* margin-top: .25rem;
-        margin-bottom: .5rem;
-        margin-right: -.4rem;
-        margin-left: -.4rem; */
-        -ms-flex-wrap: wrap;
-        flex-wrap: wrap;
-        overflow: hidden;
+    }
 
-        animation: marquee1 30s linear infinite;
+    .text-scroll { /* more like text lmao */
+
+        animation: marquee1 4s linear infinite;
     }
 
     @keyframes marquee1 {
         0% {
-            transform: translateX(0)
+            transform: translateX(0%)
         }
 
         to {

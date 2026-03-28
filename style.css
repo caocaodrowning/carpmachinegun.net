@@ -483,11 +483,11 @@
         padding-left: .4rem;
         -ms-flex: none;
         flex: none;
-        width: max-content; /* */
+        width: max-content; /* 100% */
         margin-top: .25rem;
         display: -ms-flexbox;
         display: flex;
-        overflow: hidden;
+        overflow: clip; /* hidden */
         
     }
 

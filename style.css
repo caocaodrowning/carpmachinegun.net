@@ -477,6 +477,23 @@
         margin-right: 6px;
     }
 
+    .column-scrolling {
+        animation: marquee1 30s linear infinite;
+        
+        display: -ms-flexbox;
+        display: flex;
+    }
+
+    @keyframes marquee1 {
+        0% {
+            transform: translateX(0)
+        }
+
+        to {
+            transform: translateX(-50%)
+        }
+    }
+
     /* BUTTONS */
 
     button, input {

@@ -477,7 +477,7 @@
         margin-right: 6px;
     }
 
-    .column-scrolling {
+    .text-scrolling { /* more like text lmao */
         -ms-flex: none;
         flex: none;
         margin-top: .25rem;

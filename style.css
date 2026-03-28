@@ -478,9 +478,6 @@
     }
 
     .column-scrolling {
-        max-width: 100%;
-        padding-right: .4rem;
-        padding-left: .4rem;
         -ms-flex: none;
         flex: none;
         width: 100%;

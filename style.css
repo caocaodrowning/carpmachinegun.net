@@ -488,11 +488,12 @@
         display: -ms-flexbox;
         display: flex;
         overflow: hidden;
-        white-space: nowrap;
+        
     }
 
     .text-scroll { /* more like text lmao */
-        animation: marquee1 30s linear infinite;
+        animation: marquee1 2s linear infinite;
+        white-space: nowrap;
     }
 
     @keyframes marquee1 {
@@ -501,7 +502,7 @@
         }
 
         to {
-            transform: translateX(-50%)
+            transform: translateX(-100%)
         }
     }
 

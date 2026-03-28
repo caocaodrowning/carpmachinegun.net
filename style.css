@@ -488,11 +488,10 @@
         display: -ms-flexbox;
         display: flex;
         overflow: hidden;
-        white-space: nowrap;
     }
 
     .text-scroll { /* more like text lmao */
-
+        white-space: nowrap;
         animation: marquee1 4s linear infinite;
     }
 

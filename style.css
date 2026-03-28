@@ -497,9 +497,9 @@
     }
 
     @keyframes marquee1 {
-        0% {
+        /* 0% {
             transform: translateX(0%)
-        }
+        } */
 
         to {
             transform: translateX(-50%) 

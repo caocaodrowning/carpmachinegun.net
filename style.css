@@ -487,6 +487,7 @@
         margin-top: .25rem;
         display: -ms-flexbox;
         display: flex;
+        overflow: hidden;
     }
 
     .text-scroll { /* more like text lmao */

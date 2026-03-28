@@ -478,11 +478,14 @@
     }
 
     .text-scrolling { /* more like text lmao */
-        -ms-flex: none;
-        flex: none;
-        margin-top: .25rem;
-        display: -ms-flexbox;
         display: flex;
+        /* margin-top: .25rem;
+        margin-bottom: .5rem;
+        margin-right: -.4rem;
+        margin-left: -.4rem; */
+        -ms-flex-wrap: wrap;
+        flex-wrap: wrap;
+        overflow: hidden;
 
         animation: marquee1 30s linear infinite;
     }
@@ -493,7 +496,7 @@
         }
 
         to {
-            transform: translateX(-50%)
+            transform: translateX(-100%)
         }
     }
 

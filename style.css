@@ -502,7 +502,7 @@
         }
 
         to {
-            transform: translateX(var(--main-max-width)) 
+            transform: translateX(-800px) 
         }
     }
 

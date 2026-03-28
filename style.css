@@ -492,7 +492,7 @@
     }
 
     .text-scroll { /* more like text lmao */
-        animation: marquee1 15s linear infinite;
+        animation: marquee1 2s linear infinite;
         white-space: nowrap;
     }
 

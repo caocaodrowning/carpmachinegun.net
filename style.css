@@ -491,7 +491,7 @@
         
     }
 
-    .text-scroll { /* more like text lmao */
+    .text-scroll {
         gap: 1rem;
         animation: marquee1 5s linear infinite;
         white-space: nowrap;

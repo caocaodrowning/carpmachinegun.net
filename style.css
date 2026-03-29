@@ -483,11 +483,11 @@
         padding-left: .4rem;
         -ms-flex: none;
         flex: none;
-        width: 100%; /* max-content */
+        width: 100%;
         margin-top: .25rem;
         display: -ms-flexbox;
         display: flex;
-        overflow: clip; /* hidden */
+        overflow: clip; /* hidden, maybe */
         
     }
 
@@ -495,7 +495,7 @@
         animation: marquee-1 10s linear infinite;
         white-space: nowrap;
         color: #fff;
-        background: #e7040f;
+        background: #e7040f; /* maybe not red */
     }
 
     @keyframes marquee-1 {

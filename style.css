@@ -19,6 +19,8 @@
         --text-color: #000000;
         
         /* text */
+        /*rule of thumb
+        Title = >/=2x height Subtitle = >/=2x height Regular */
         --title-font: 'Roboto-Regular', monospace;
         --surtitle-font: 'NewsCycle-Bold';
         --subtitle-font: 'NewsCycle-Bold';

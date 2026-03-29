@@ -497,7 +497,7 @@
         -ms-flex: none;
         flex: none;
         width: 100%;
-        margin-top: .25rem;
+        /* margin-top: .25rem; only necessary when not on top*/
         display: -ms-flexbox;
         display: flex;
         overflow: clip; /* hidden, maybe */

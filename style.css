@@ -312,7 +312,7 @@
         border-left: 1px solid var(--border1);
     }
 
-    .text2-error {
+    .text2-red {
         text-align: center;
         margin: auto;
         display: flex;
@@ -492,12 +492,13 @@
     }
 
     .text-scroll {
-        gap: 1rem;
-        animation: marquee1 10s linear infinite;
+        animation: marquee-1 10s linear infinite;
         white-space: nowrap;
+        color: #fff;
+        background: #e7040f;
     }
 
-    @keyframes marquee1 {
+    @keyframes marquee-1 {
         to {
             transform: translateX(-50%) /*-50% */
         }

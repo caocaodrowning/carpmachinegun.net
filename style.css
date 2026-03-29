@@ -29,16 +29,16 @@
         --btn-nav-font: 'NewsCycle-Regular';
 
         --title-font-size: 16px;
-        --surtitle-font-size: 1.2rem; /* was 1rem */
+        --surtitle-font-size: 1.25rem; /* was 1rem */
         --surtitle-font-weight: 700;
-        --subtitle-font-size: 1.2rem; /* was 1rem */
+        --subtitle-font-size: 1.25rem; /* was 1rem */
         --subtitle-font-weight: 700;
         --large-font-size: 25px;    /* doesnt get used, split up between sur- & sub */
-        --base-font-size: 14x;      /* rename to normal */
-        --small-font-size: 12px;    /* for the credits text, RENAME*/
-        --ul-font-size: 12px;       /* gets used once, CHECK */
+        --base-font-size: 1rem;      /* rename to normal */
+        --small-font-size: 0.75rem;    /* for the credits text, RENAME*/
+        --ul-font-size: 0.75rem;       /* gets used once, CHECK */
         --table-font-size1: 1rem;   /* gets used */
-        --footer-font-size: 16px;   /* gets used */
+        --footer-font-size: 1rem;   /* gets used */
         
         /* layout stuff */
         --main-min-width: 1rem; /* keep at 1 to ensure correct phone scaling */

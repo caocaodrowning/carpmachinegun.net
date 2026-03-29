@@ -478,6 +478,18 @@
         animation: blink 0.2s ease 0s both infinite;
     }
 
+    @keyframes blink {
+        0% {
+            opacity: 1;
+        }
+        50% {
+            opacity: 0;
+        }
+        100% {
+            opacity: 1;
+        }
+    }
+
     .column-scroll { /* edit shit, what about columns ? */
         max-width: 100%;
         padding-right: .4rem;

@@ -494,6 +494,8 @@
     .text-scroll {
         animation: marquee-1 10s linear infinite;
         white-space: nowrap;
+        margin-top: .25rem;
+        margin-bottom: .25rem;
         color: #fff;
         background: #e7040f; /* maybe not red */
     }

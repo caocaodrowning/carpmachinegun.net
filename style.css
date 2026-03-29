@@ -495,7 +495,7 @@
         animation: marquee-1 10s linear infinite;
         white-space: nowrap;
         align-items: center;
-        padding-top: .25rem;
+        padding-top: .15rem;
         padding-bottom: .25rem;
         color: #fff;
         background: #e7040f; /* maybe not red */

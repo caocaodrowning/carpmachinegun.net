@@ -475,6 +475,7 @@
         border-radius: 6px;
         background: #fe5555;
         margin-right: 6px;
+        animation: blink 0.2s ease 0s both infinite;
     }
 
     .column-scroll { /* edit shit, what about columns ? */

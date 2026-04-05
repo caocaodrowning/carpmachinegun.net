@@ -477,7 +477,7 @@
         border-radius: 6px;
         background: #fe5555;
         margin-right: 6px;
-        animation: blink 0.2s ease 0s both infinite; /*blink animation does not fit here, reuse elsewhere*/
+        animation: blink 0.2s /*ease*/ 0s both infinite; /*blink animation does not fit here, reuse elsewhere*/
     }
 
     @keyframes blink {

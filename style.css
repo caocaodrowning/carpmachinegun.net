@@ -496,8 +496,8 @@
 
     .column-scroll { /* edit shit, what about columns ? */
         max-width: 100%;
-        padding-right: .4rem;
-        padding-left: .4rem;
+        /* padding-right: .4rem;
+        padding-left: .4rem; dont think these are needed*/
         -ms-flex: none;
         flex: none;
         width: 100%;

@@ -170,7 +170,7 @@
         font-stretch: condensed;
         font-family:  var(--body-font);
         font-size: var(--small-font-size);
-        color: var(--shadow2);
+        color: var(--shadow0);
         text-align: left;
         max-width: 100%;
         -ms-flex: 1;
